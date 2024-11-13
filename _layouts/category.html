@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/categories">Categories</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+</nav>
+
+<table>
+    <thead>
+        <tr>
+            <th>Graph Name</th>
+            <th>Vertices</th>
+            <th>Edges</th>
+            <th>Density</th>
+            <th>Max Degree</th>
+            <th>Min Degree</th>
+            <th>Avg Degree</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% assign filtered_graphs = site.graphs | where: "category", page.title %}
+        {% for graph in filtered_graphs %}
+            <tr>
+                <td>{{ graph.title }}</td>
+                <td>{{ graph.nodes }}</td>
+                <td>{{ graph.edges }}</td>
+                <td>{{ graph.density }}</td>
+                <td>{{ graph.max-degree }}</td>
+                <td>{{ graph.min-degree }}</td>
+                <td>{{ graph.avg-degree }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

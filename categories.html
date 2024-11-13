@@ -1,0 +1,27 @@
+---
+layout: default
+title: Categories
+permalink: /categories/
+---
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Categories</li>
+    </ol>
+</nav>
+<table>
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>No of graphs</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for category in site.categories %}
+            <tr>
+                <td><a href="{{ category.url }}">{{ category.title }}</a></td>
+                <td>{{ site.graphs | where: "category", category.title | size }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
