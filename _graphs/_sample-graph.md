@@ -1,8 +1,13 @@
 ---
 title: Add Title
+download-link: https://nrvis.com/download/data/asn/aves-barn-swallow-contact-network.zip
 categories:
-  - /categories/add-graph-categories-here
-  - /categories/add-graph-categories-here
+  - /categories/animal-social-networks
+  - /categories/biological-networks
+  - /categories/brain-networks
+  - /categories/cheminformatics
+  - /categories/collaboration-networks
+
 about: Add about here
 source: Add downloadable graph link here
 

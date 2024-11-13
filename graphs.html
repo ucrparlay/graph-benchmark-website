@@ -8,6 +8,7 @@ permalink: /graphs/
     <thead>
         <tr>
             <th scope="col">Graph Name</th>
+            <th scope="col">Categories</th>
             <th scope="col">Vertices</th>
             <th scope="col">Edges</th>
             <th scope="col">Density</th>
@@ -20,6 +21,17 @@ permalink: /graphs/
         {% for graph in site.graphs %}
             <tr>
                 <td scope="row"><a href="{{ graph.url }}">{{ graph.title }}</a></td>
+                <td>
+                {% if graph.categories %}
+                    {% for category_id in graph.categories %}
+                        {% assign category = site.categories | find: "id", category_id %}
+                        <a href="{{ category.url }}">{{ category.title }}</a>
+                        <br />
+                    {% endfor %}
+                {% else %}
+                    -
+                {% endif %}
+                </td>
                 <td>{{ graph.nodes }}</td>
                 <td>{{ graph.edges }}</td>
                 <td>{{ graph.density }}</td>
