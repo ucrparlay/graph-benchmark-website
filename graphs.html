@@ -1,11 +1,9 @@
 ---
 layout: default
-breadcrumbs:
-  - title: Categories
-    link: /categories
+title: Graphs
+permalink: /graphs/
 ---
 
-{{ content }}
 <table class="table table-hover table-responsive-lg">
     <thead>
         <tr>
@@ -19,8 +17,7 @@ breadcrumbs:
         </tr>
     </thead>
     <tbody>
-        {% assign filtered_graphs = site.graphs | where_exp: "graph", "graph.categories contains page.id" %}
-        {% for graph in filtered_graphs %}
+        {% for graph in site.graphs %}
             <tr>
                 <td scope="row"><a href="{{ graph.url }}">{{ graph.title }}</a></td>
                 <td>{{ graph.nodes }}</td>

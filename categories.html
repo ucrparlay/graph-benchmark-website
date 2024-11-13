@@ -3,27 +3,19 @@ layout: default
 title: Categories
 permalink: /categories/
 ---
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Categories</li>
-    </ol>
-</nav>
-<main role="main" class="container">
-    <table class="table table-hover table-responsive-lg">
-        <thead>
+<table class="table table-hover table-responsive-lg">
+    <thead>
+        <tr>
+            <th scope="col">Category</th>
+            <th scope="col">No of graphs</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for category in site.categories %}
             <tr>
-                <th scope="col">Category</th>
-                <th scope="col">No of graphs</th>
+                <td scope="row"><a href="{{ category.url }}">{{ category.title }}</a></td>
+                <td>{{ site.graphs | where_exp: "graph", "graph.categories contains category.id" | size }}</td>
             </tr>
-        </thead>
-        <tbody>
-            {% for category in site.categories %}
-                <tr>
-                    <td scope="row"><a href="{{ category.url }}">{{ category.title }}</a></td>
-                    <td>{{ site.graphs | where_exp: "graph", "graph.categories contains category.id" | size }}</td>
-                </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-</main>
+        {% endfor %}
+    </tbody>
+</table>

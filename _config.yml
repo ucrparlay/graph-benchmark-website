@@ -57,6 +57,7 @@ collections:
   categories:
     output: true
   graphs:
+    output: true
 
 defaults:
   - scope:

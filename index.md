@@ -4,6 +4,7 @@
 
 layout: default
 title: Home
+id: home
 ---
 
 Welcome to Home Page!
