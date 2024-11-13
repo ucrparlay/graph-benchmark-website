@@ -1,6 +1,8 @@
 ---
 title: aves-barn-swallow-contact-network
-category: Animal Social Networks
+categories:
+  - /categories/animal-social-networks
+  - /categories/biological-networks
 about: Real-world animal interaction network data sets. Animal interaction data from published studies of wild, captive, and domesticated animals.
 source: https://bansallab.github.io/asnr/data.html
 

@@ -9,30 +9,32 @@ layout: default
     </ol>
 </nav>
 
-<table>
-    <thead>
-        <tr>
-            <th>Graph Name</th>
-            <th>Vertices</th>
-            <th>Edges</th>
-            <th>Density</th>
-            <th>Max Degree</th>
-            <th>Min Degree</th>
-            <th>Avg Degree</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% assign filtered_graphs = site.graphs | where: "category", page.title %}
-        {% for graph in filtered_graphs %}
+<main role="main" class="container">
+    <table class="table table-hover table-responsive-lg">
+        <thead>
             <tr>
-                <td>{{ graph.title }}</td>
-                <td>{{ graph.nodes }}</td>
-                <td>{{ graph.edges }}</td>
-                <td>{{ graph.density }}</td>
-                <td>{{ graph.max-degree }}</td>
-                <td>{{ graph.min-degree }}</td>
-                <td>{{ graph.avg-degree }}</td>
+                <th scope="col">Graph Name</th>
+                <th scope="col">Vertices</th>
+                <th scope="col">Edges</th>
+                <th scope="col">Density</th>
+                <th scope="col">Max Degree</th>
+                <th scope="col">Min Degree</th>
+                <th scope="col">Avg Degree</th>
             </tr>
-        {% endfor %}
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            {% assign filtered_graphs = site.graphs | where_exp: "graph", "graph.categories contains page.id" %}
+            {% for graph in filtered_graphs %}
+                <tr>
+                    <td scope="row">{{ graph.title }}</td>
+                    <td>{{ graph.nodes }}</td>
+                    <td>{{ graph.edges }}</td>
+                    <td>{{ graph.density }}</td>
+                    <td>{{ graph.max-degree }}</td>
+                    <td>{{ graph.min-degree }}</td>
+                    <td>{{ graph.avg-degree }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</main>
