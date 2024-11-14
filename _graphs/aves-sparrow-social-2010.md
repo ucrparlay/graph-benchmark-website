@@ -1,6 +1,6 @@
 ---
 title: aves-sparrow-social-2010 
-download-link: https://nrvis.com/download/data/asn/aves-sparrow-social-2010.zip
+download_link: https://nrvis.com/download/data/asn/aves-sparrow-social-2010.zip
 categories:
   - /categories/brain-networks
 
@@ -10,8 +10,8 @@ source: https://bansallab.github.io/asnr/data.html
 nodes: 40
 edges: 305
 density: 0.391026
-max-degree: 29
-min-degree: 3
-avg-degree: 15
+max_degree: 29
+min_degree: 3
+avg_degree: 15
 ---
 Add content here which is to be displayed on the top of the graph page

@@ -1,6 +1,6 @@
 ---
 title: aves-sparrow-social-2009
-download-link: https://nrvis.com/download/data/asn/aves-sparrow-social-2009.zip
+download_link: https://nrvis.com/download/data/asn/aves-sparrow-social-2009.zip
 categories:
   - /categories/cheminformatics
   - /categories/collaboration-networks
@@ -11,8 +11,8 @@ source: https://bansallab.github.io/asnr/data.html
 nodes: 31
 edges: 211
 density: 0.453763
-max-degree: 23
-min-degree: 4
-avg-degree: 13
+max_degree: 23
+min_degree: 4
+avg_degree: 13
 ---
 Add content here which is to be displayed on the top of the graph page

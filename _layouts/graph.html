@@ -5,95 +5,114 @@ breadcrumbs:
     link: /graphs
 ---
 
-{{ content }}
-{% if page.download-link %}
-    <a href="{{ page.download-link }}" role="button" class="btn btn-primary mb-2">Download Graph Data</a>
-{% endif %}
-<div class="row">
-    <div class="col-12 col-lg-6">
-        <table class="table table-responsive-sm">
-            <thead>
-                <tr class="table-primary">
-                    <th colspan="2">Metadata</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Name</th>
-                    <td>{{ page.title }}</td>
-                </tr>
-                {% if page.categories %}
-                    <tr>
-                        <th scope="row">Categories</th>
-                        <td>
-                            {% for category_id in page.categories %}
-                                {% assign category = site.categories | find: "id", category_id %}
-                                <a href="{{ category.url }}">{{ category.title }}</a>
-                                <br />
-                            {% endfor %}
-                        </td>
-                    </tr>
-                {% endif %}
-                {% if page.about %}
-                    <tr>
-                        <th scope="row">About</th>
-                        <td>{{ page.about }}</td>
-                    </tr>
-                {% endif %}
-                {% if page.source %}
-                    <tr>
-                        <th scope="row">Source</th>
-                        <td><a href="{{ page.source }}">{{ page.source }}</a></td>
-                    </tr>
-                {% endif %}
-            </tbody>
-        </table>
-    </div>
-    <div class="col-12 col-lg-6">
-        <table class="table table-responsive-xs">
-            <thead>
-                <tr class="table-primary">
-                    <th colspan="2">Network Data Statistics</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% if page.nodes %}
-                    <tr>
-                        <th scope="row">Nodes</th>
-                        <td>{{ page.nodes }}</td>
-                    </tr>
-                {% endif %}
-                {% if page.edges %}
-                    <tr>
-                        <th scope="row">Edges</th>
-                        <td>{{ page.edges }}</td>
-                    </tr>
-                {% endif %}
-                {% if page.density %}
-                    <tr>
-                        <th scope="row">Density</th>
-                        <td>{{ page.density }}</td>
-                    </tr>
-                {% endif %}
-                {% if page.max-degree %}
-                    <tr>
-                        <th scope="row">Maximum Degree</th>
-                        <td>{{ page.max-degree }}</td>
-                    </tr>
-                {% endif %}
-                {% if page.min-degree %}
-                    <tr>
-                        <th scope="row">Minimum Degree</th>
-                        <td>{{ page.min-degree }}</td>
-                    </tr>
-                {% endif %}
-                {% if page.avg-degree %}
-                    <tr>
-                        <th scope="row">Average Degree</th>
-                        <td>{{ page.avg-degree }}</td>
-                    </tr>
-                {% endif %}
-            </tbody>
-        </table>
-    </div>
+<div class="d-flex align-items-center justify-content-between mb-2">
+  <h2>{{ page.title }}</h2>
+  {% if page.download_link %}
+    <a
+      href="{{ page.download_link }}"
+      role="button"
+      class="btn btn-primary mb-2">Download Graph Data</a>
+  {% endif %}
 </div>
+<div class="row">
+  <div class="col-12 col-lg-6">
+    <table class="table table-responsive-sm">
+      <thead>
+        <tr class="table-primary">
+          <th colspan="2">Metadata</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Name</th>
+          <td>{{ page.title }}</td>
+        </tr>
+        {% if page.categories %}
+          <tr>
+            <th scope="row">Categories</th>
+            <td>
+              {% for category_id in page.categories %}
+                {% assign category = site.categories | find: "id", category_id %}
+                <a href="{{ category.url }}">{{ category.title }}</a>
+                <br/>
+              {% endfor %}
+            </td>
+          </tr>
+        {% endif %}
+        {% if page.about %}
+          <tr>
+            <th scope="row">About</th>
+            <td>{{ page.about }}</td>
+          </tr>
+        {% endif %}
+        {% if page.source %}
+          <tr>
+            <th scope="row">Source</th>
+            <td>
+              <a href="{{ page.source }}">{{ page.source }}</a>
+            </td>
+          </tr>
+        {% endif %}
+      </tbody>
+    </table>
+  </div>
+  <div class="col-12 col-lg-6">
+    <table class="table table-responsive-xs">
+      <thead>
+        <tr class="table-primary">
+          <th colspan="2">Network Data Statistics</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% if page.nodes %}
+          <tr>
+            <th scope="row">Nodes</th>
+            <td>{{ page.nodes }}</td>
+          </tr>
+        {% endif %}
+        {% if page.edges %}
+          <tr>
+            <th scope="row">Edges</th>
+            <td>{{ page.edges }}</td>
+          </tr>
+        {% endif %}
+        {% if page.density %}
+          <tr>
+            <th scope="row">Density</th>
+            <td>{{ page.density }}</td>
+          </tr>
+        {% endif %}
+        {% if page.max_degree %}
+          <tr>
+            <th scope="row">Maximum Degree</th>
+            <td>{{ page.max_degree }}</td>
+          </tr>
+        {% endif %}
+        {% if page.min_degree %}
+          <tr>
+            <th scope="row">Minimum Degree</th>
+            <td>{{ page.min_degree }}</td>
+          </tr>
+        {% endif %}
+        {% if page.avg_degree %}
+          <tr>
+            <th scope="row">Average Degree</th>
+            <td>{{ page.avg_degree }}</td>
+          </tr>
+        {% endif %}
+      </tbody>
+    </table>
+  </div>
+</div>
+<table class="table table-responsive-sm">
+  <thead>
+    <tr class="table-primary">
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ content }}</td>
+    </tr>
+  </tbody>
+</table>

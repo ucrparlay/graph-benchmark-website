@@ -1,6 +1,6 @@
 ---
 title: aves-hens-pecking-order
-download-link: https://nrvis.com/download/data/asn/aves-hens-pecking-order.zip
+download_link: https://nrvis.com/download/data/asn/aves-hens-pecking-order.zip
 categories:
   - /categories/biological-networks
   - /categories/collaboration-networks
@@ -11,8 +11,8 @@ source: https://bansallab.github.io/asnr/data.html
 nodes: 32
 edges: 496
 density: 1
-max-degree: 31
-min-degree: 31
-avg-degree: 31
+max_degree: 31
+min_degree: 31
+avg_degree: 31
 ---
 Add content here which is to be displayed on the top of the graph page

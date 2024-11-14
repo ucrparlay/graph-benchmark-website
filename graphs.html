@@ -22,22 +22,22 @@ permalink: /graphs/
             <tr>
                 <td scope="row"><a href="{{ graph.url }}">{{ graph.title }}</a></td>
                 <td>
-                {% if graph.categories %}
-                    {% for category_id in graph.categories %}
-                        {% assign category = site.categories | find: "id", category_id %}
-                        <a href="{{ category.url }}">{{ category.title }}</a>
-                        <br />
-                    {% endfor %}
-                {% else %}
-                    -
-                {% endif %}
+                    {% if graph.categories %}
+                        {% for category_id in graph.categories %}
+                            {% assign category = site.categories | find: "id", category_id %}
+                            <a href="{{ category.url }}">{{ category.title }}</a>
+                            <br />
+                        {% endfor %}
+                    {% else %}
+                        -
+                    {% endif %}
                 </td>
                 <td>{{ graph.nodes }}</td>
                 <td>{{ graph.edges }}</td>
                 <td>{{ graph.density }}</td>
-                <td>{{ graph.max-degree }}</td>
-                <td>{{ graph.min-degree }}</td>
-                <td>{{ graph.avg-degree }}</td>
+                <td>{{ graph.max_degree }}</td>
+                <td>{{ graph.min_degree }}</td>
+                <td>{{ graph.avg_degree }}</td>
             </tr>
         {% endfor %}
     </tbody>

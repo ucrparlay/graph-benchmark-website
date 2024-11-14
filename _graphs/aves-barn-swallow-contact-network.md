@@ -1,6 +1,6 @@
 ---
-title: aves-barn-swallow-contact-network
-download-link: https://nrvis.com/download/data/asn/aves-barn-swallow-contact-network.zip
+title: Aves Barn Swallow Contact Network
+download_link: https://nrvis.com/download/data/asn/aves-barn-swallow-contact-network.zip
 categories:
   - /categories/animal-social-networks
   - /categories/biological-networks
@@ -10,8 +10,8 @@ source: https://bansallab.github.io/asnr/data.html
 nodes: 17
 edges: 53
 density: 0.389706
-max-degree: 11
-min-degree: 1
-avg-degree: 6
+max_degree: 11
+min_degree: 1
+avg_degree: 6
 ---
 Add content here which is to be displayed on the top of the graph page
