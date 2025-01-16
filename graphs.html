@@ -2,8 +2,16 @@
 layout: default
 title: Graphs
 permalink: /graphs/
+pagination: 
+  enabled: true
+  collection: graphs
+  per_page: 10
+  permalink: '/page/:num/'
+  limit: 0
+  trail: 
+    before: 1 # The number of links before the current page
+    after: 1  # The number of links after the current page
 ---
-
 <table class="table table-hover table-responsive-lg">
     <thead>
         <tr>
@@ -18,7 +26,7 @@ permalink: /graphs/
         </tr>
     </thead>
     <tbody>
-        {% for graph in site.graphs %}
+        {% for graph in paginator.posts %}
             <tr>
                 <td scope="row"><a href="{{ graph.url }}">{{ graph.title }}</a></td>
                 <td>
@@ -41,4 +49,55 @@ permalink: /graphs/
             </tr>
         {% endfor %}
     </tbody>
+    <tfoot>
+        <tr>
+            <td scope="row" colspan="8">
+                {% if paginator.page_trail %}
+                    <nav aria-label="Graph pages">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item{% if paginator.previous_page %}{% else %} disabled{% endif %}">
+                                <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl }}" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            {% if paginator.page_trail[0].num != paginator.first_page %}
+                                <li class="page-item">
+                                    <a class="page-link" href="{{ paginator.first_page_path | prepend: site.baseurl }}">{{ paginator.first_page }}</a>
+                                </li>
+                                {% assign sec_page = paginator.first_page | plus: 1 %}
+                                {% if paginator.page_trail[0].num != sec_page %}
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#">...</a>
+                                    </li>
+                                {% endif %}    
+                            {% endif %}
+                            {% for trail in paginator.page_trail %}
+                                <li class="page-item{% if page.url == trail.path %} active{% endif %}">
+                                    <a class="page-link" href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+                                </li>
+                            {% endfor %}
+                            {% if paginator.page_trail.last.num != paginator.last_page %}
+                                {% assign last_sec_page = paginator.last_page | minus: 1 %}
+                                {% if paginator.page_trail.last.num != last_sec_page %}
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#">...</a>
+                                    </li>
+                                {% endif %}    
+                                <li class="page-item">
+                                    <a class="page-link" href="{{ paginator.last_page_path | prepend: site.baseurl }}">{{ paginator.last_page }}</a>
+                                </li>
+                            {% endif %}
+                            <li class="page-item{% if paginator.next_page %}{% else %} disabled{% endif %}">
+                                <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                {% endif %}
+            </td>
+        </tr>
+    </tfoot>
 </table>
