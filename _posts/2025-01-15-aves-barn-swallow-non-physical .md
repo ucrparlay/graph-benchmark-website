@@ -2,8 +2,10 @@
 title: aves-barn-swallow-non-physical 
 download_link: https://nrvis.com/download/data/asn/aves-barn-swallow-non-physical.zip
 categories:
-  - /categories/biological-networks
-  - /categories/brain-networks
+  - Biological Networks
+  - Brain Networks
+
+generation_type: Real World
 about: Add about here
 source: Add downloadable graph link here
 

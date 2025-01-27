@@ -1,0 +1,42 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+fullwidth: true
+title: Home
+id: home
+---
+
+<div class="row mx-3 justify-content-center">
+    <div class="text-center col-lg-8 col-12">
+        <img src="{{ '/assets/images/logos/graph_logo.png' | relative_url }}" class="mt-4 mb-2" width="150" />
+        <p class="display-4 font-weight-bold">Graph Repository</p>
+        <p class="mx-md-5">Discover, analyze and evaluate algorithms with a curated colection of standard graph datasets, designed to accelerate research and foster innovation in graph-based problem solving.</p>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-4 col-lg-4 col-xl-3 mb-3 mb-sm-0">
+                <p class="metric-count">{{ site.posts | size }}</p>
+                <p class="metric-desc">Total Graphs in the Repository</p>
+                <a href="/graphs" class="btn btn-primary text-white">View Graphs<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>    
+            </div>
+            <div class="col-1"></div>
+            <div class="col-12 col-sm-4 col-lg-4 col-xl-3">
+                <p class="metric-count">{{ site.categories | size }}</p>
+                <p class="metric-desc">Total Categories in the Repository</p>
+                <a href="/categories" class="btn btn-primary text-white">View Categories<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script>Chart.register(ChartDataLabels);</script>
+    <div class="text-center col-md-8 col-12">
+        <p class="h4 mt-5 mb-0">Graphs by Categories</p>
+        {% include graphsByCategoriesChart.html %}
+    </div>
+    <div class="text-center col-md-4 col-12">
+        <p class="h4 mt-5 mb-0">Graphs by Generation Type</p>
+        {% include graphsByGenerationTypeChart.html %}
+    </div>
+</div>
+

@@ -2,9 +2,10 @@
 title: aves-songbird-social
 download_link: https://nrvis.com/download/data/asn/aves-songbird-social.zip
 categories:
-  - /categories/biological-networks
-  - /categories/brain-networks
+  - Biological Networks
+  - Brain Networks
 
+generation_type: Synthetic
 about: Real-world animal interaction network data sets. Animal interaction data from published studies of wild, captive, and domesticated animals.
 source:   https://bansallab.github.io/asnr/data.html
 

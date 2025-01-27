@@ -1,14 +1,12 @@
 ---
 layout: default
-breadcrumbs:
-  - title: Categories
-    link: /categories
+title: Graphs
 ---
-<p class="h3">{{page.title}}</p>
 <table class="table table-hover table-responsive-lg">
     <thead>
         <tr>
             <th scope="col">Graph Name</th>
+            <th scope="col">Categories</th>
             <th scope="col">Generation Type</th>
             <th scope="col">Vertices</th>
             <th scope="col">Edges</th>
@@ -19,9 +17,19 @@ breadcrumbs:
         </tr>
     </thead>
     <tbody>
-        {% for graph in page.paginator.posts limit:page.paginator.per_page %}
+        {% for graph in paginator.posts %}
             <tr>
                 <td scope="row"><a href="{{ graph.url }}">{{ graph.title }}</a></td>
+                <td>
+                    {% if graph.categories %}
+                        {% for category in graph.categories %}
+                            <a href="{{ site.url }}/category/{{ category | slugify }}/index.html">{{ category }}</a>
+                            <br />
+                        {% endfor %}
+                    {% else %}
+                        -
+                    {% endif %}
+                </td>
                 <td>{{ graph.generation_type }}</td>
                 <td>{{ graph.nodes }}</td>
                 <td>{{ graph.edges }}</td>
@@ -35,9 +43,7 @@ breadcrumbs:
     <tfoot>
         <tr>
             <td scope="row" colspan="8">
-                {% assign slugified_page_title = page.title | slugify %}
-                {% assign page_url = "/category/" | append: slugified_page_title | append: "/" %}
-                {% assign buttons = page.paginator | pagination_buttons: page_url %}
+                {% assign buttons = paginator | pagination_buttons: "/graphs/" %}
                 {% if buttons %}
                     <nav aria-label="Graph pages">
                         <ul class="pagination justify-content-center">

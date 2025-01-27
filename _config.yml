@@ -33,7 +33,8 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
+  - jekyll-category-pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,24 +55,29 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-collections:
-  categories:
-    output: true
-  graphs:
-    output: true
+# collections:
+#   categories:
+#     output: true
+#   graphs:
+#     output: true
 
 defaults:
+  # - scope:
+  #     path: ""
+  #     type: "categories"
+  #   values:
+  #     layout: "category"
   - scope:
       path: ""
-      type: "categories"
-    values:
-      layout: "category"
-  - scope:
-      path: ""
-      type: "graphs"
+      type: "posts"
     values:
       layout: "graph"
+      permalink: /:title:output_ext
 
-pagination: 
-  enabled: true
-  debug: false
+# pagination: 
+#   enabled: true
+#   debug: false
+
+paginate: 10
+paginate_path: "/graphs/page:num/"
+category_layout: category.html
