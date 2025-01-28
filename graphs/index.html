@@ -19,7 +19,7 @@ title: Graphs
     <tbody>
         {% for graph in paginator.posts %}
             <tr>
-                <td scope="row"><a href="{{ site.baseurl }}/{{ graph.url }}">{{ graph.title }}</a></td>
+                <td scope="row"><a href="{{ site.baseurl }}{{ graph.url }}">{{ graph.title }}</a></td>
                 <td>
                     {% if graph.categories %}
                         {% for category in graph.categories %}
