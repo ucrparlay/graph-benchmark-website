@@ -12,9 +12,10 @@ permalink: /categories/
     </thead>
     <tbody>
         {% for category in site.categories %}
+            {% assign category_name = category | first %}
             <tr>
-                <td scope="row"><a href="{{ category.url }}">{{ category.title }}</a></td>
-                <td>{{ site.graphs | where_exp: "graph", "graph.categories contains category.id" | size }}</td>
+                <td scope="row"><a href="{{ site.baseurl }}/category/{{ category_name | slugify }}">{{ category_name }}</a></td>
+                <td>{{ site.posts | where_exp: "post", "post.categories contains category_name" | size }}</td>
             </tr>
         {% endfor %}
     </tbody>

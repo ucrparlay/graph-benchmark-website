@@ -31,12 +31,17 @@ breadcrumbs:
           <tr>
             <th scope="row">Categories</th>
             <td>
-              {% for category_id in page.categories %}
-                {% assign category = site.categories | find: "id", category_id %}
-                <a href="{{ category.url }}">{{ category.title }}</a>
+              {% for category in page.categories %}
+                <a href="{{ site.baseurl }}/category/{{ category | slugify }}">{{ category }}</a>
                 <br/>
               {% endfor %}
             </td>
+          </tr>
+        {% endif %}
+        {% if page.generation_type %}
+          <tr>
+            <th scope="row">Generation Type</th>
+            <td>{{ page.generation_type }}</td>
           </tr>
         {% endif %}
         {% if page.about %}
@@ -60,7 +65,7 @@ breadcrumbs:
     <table class="table table-responsive-xs">
       <thead>
         <tr class="table-primary">
-          <th colspan="2">Network Data Statistics</th>
+          <th colspan="2">Graph Statistics</th>
         </tr>
       </thead>
       <tbody>

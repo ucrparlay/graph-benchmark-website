@@ -1,11 +1,17 @@
 ---
-title: Aves Barn Swallow Contact Network
+title: Add Title
 download_link: https://nrvis.com/download/data/asn/aves-barn-swallow-contact-network.zip
 categories:
+  - /categories/category-filename
   - /categories/animal-social-networks
   - /categories/biological-networks
-about: Real-world animal interaction network data sets. Animal interaction data from published studies of wild, captive, and domesticated animals.
-source: https://bansallab.github.io/asnr/data.html
+  - /categories/brain-networks
+  - /categories/cheminformatics
+  - /categories/collaboration-networks
+
+generation_type: Real World
+about: Add about here
+source: Add downloadable graph link here
 
 nodes: 17
 edges: 53

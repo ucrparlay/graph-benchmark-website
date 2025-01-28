@@ -1,0 +1,33 @@
+<canvas id="graphsByGenerationTypeChart" style="width:100%;max-width:500px"></canvas>
+<script>
+    const graphsByGenerationTypeChartContainer = document.getElementById('graphsByGenerationTypeChart');
+    const graphsByGenerationTypeChart = new Chart(graphsByGenerationTypeChartContainer, {
+        type: 'doughnut',
+        data: {
+            labels: ["Real World", "Synthetic"],
+            datasets: [{
+                label: '# of Graphs',
+                data: [
+                    {{ site.posts | where_exp: "post", "post.generation_type == 'Real World'" | size }},
+                    {{ site.posts | where_exp: "post", "post.generation_type == 'Synthetic'" | size }},
+                ]
+            }]
+        },
+        options: {
+            layout: {
+                padding: 20
+            },
+            plugins: {
+                datalabels: {
+                    color: "black",
+                    font: {
+                        size: "16px"
+                    }
+                },
+                legend: {
+                    position: "bottom"
+                }
+            }
+        }
+    });
+</script>
