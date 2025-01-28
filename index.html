@@ -17,13 +17,13 @@ id: home
             <div class="col-12 col-sm-4 col-lg-4 col-xl-3 mb-3 mb-sm-0">
                 <p class="metric-count">{{ site.posts | size }}</p>
                 <p class="metric-desc">Total Graphs in the Repository</p>
-                <a href="/graphs" class="btn btn-primary text-white">View Graphs<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>    
+                <a href="{{ site.baseurl }}/graphs" class="btn btn-primary text-white">View Graphs<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>    
             </div>
             <div class="col-1"></div>
             <div class="col-12 col-sm-4 col-lg-4 col-xl-3">
                 <p class="metric-count">{{ site.categories | size }}</p>
                 <p class="metric-desc">Total Categories in the Repository</p>
-                <a href="/categories" class="btn btn-primary text-white">View Categories<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
+                <a href="{{ site.baseurl }}/categories" class="btn btn-primary text-white">View Categories<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>

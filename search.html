@@ -27,11 +27,11 @@ id: search
           "title": "{{ graph.title | xml_escape }}",
           "categories": [
             {% for category in graph.categories %}
-                {"title": "{{ category | xml_escape}}", "url": "{{ category | slugify}}"},
+                {"title": "{{ category | xml_escape}}", "url": "{{ site.baseurl }}/category/{{ category | slugify}}"},
             {% endfor %}
           ],
         //   "content": {{ graph.content | strip_html | strip_newlines | jsonify }},
-          "url": "{{ graph.url | xml_escape }}"
+          "url": "{{ site.baseurl }}{{ graph.url | xml_escape }}"
         },
       {% endfor %}
     };

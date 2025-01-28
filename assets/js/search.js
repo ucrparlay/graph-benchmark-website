@@ -11,7 +11,7 @@
           <td scope="row">
             <a href="${item.url}">${item.title}</a>
           </td>
-          <td>${item.categories.map(category => `<a href="/category/${category.url}/index.html">${category.title}</a>`).join("<br />")}</td>
+          <td>${item.categories.map(category => `<a href="${category.url}/index.html">${category.title}</a>`).join("<br />")}</td>
         </tr>`
       }
 
@@ -57,7 +57,6 @@
       });
 
       var results = idx.search(searchTerm); // Get lunr to perform a search
-      console.log(results)
       displaySearchResults(results, window.store); // We'll write this in the next section
     }
   }

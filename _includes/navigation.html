@@ -1,5 +1,5 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand d-flex align-items-center" href="/">
+    <a class="navbar-brand d-flex align-items-center" href="{{ site.baseurl }}/">
       <img src="{{ '/assets/images/logos/graph_logo.png' | relative_url }}" class="mr-2" width="40" />
       Graph Repository
     </a>
@@ -14,22 +14,22 @@
             Categories
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/categories">Categories Page</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/categories">Categories Page</a>
             <div class="dropdown-divider"></div>
             {% for category in site.categories %}
               {% assign category_name = category | first %}
-              <a class="dropdown-item" href="{{ site.url }}/category/{{ category_name | slugify }}">{{ category_name }}</a>
+              <a class="dropdown-item" href="{{ site.baseurl }}/category/{{ category_name | slugify }}">{{ category_name }}</a>
             {% endfor %}
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/graphs">Graphs</a>
+          <a class="nav-link" href="{{ site.baseurl }}/graphs">Graphs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about-us">About Us</a>
+          <a class="nav-link" href="{{ site.baseurl }}/about-us">About Us</a>
         </li>
       </ul>
-      <form class="form-inline" action="/search.html" method="get">
+      <form class="form-inline" action="{{ site.baseurl }}/search.html" method="get">
         <input class="form-control" name="query" type="search" placeholder="Search" aria-label="Search">
       </form>
     </div>

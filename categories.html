@@ -14,7 +14,7 @@ permalink: /categories/
         {% for category in site.categories %}
             {% assign category_name = category | first %}
             <tr>
-                <td scope="row"><a href="{{ site.url }}/category/{{ category_name | slugify }}">{{ category_name }}</a></td>
+                <td scope="row"><a href="{{ site.baseurl }}/category/{{ category_name | slugify }}">{{ category_name }}</a></td>
                 <td>{{ site.posts | where_exp: "post", "post.categories contains category_name" | size }}</td>
             </tr>
         {% endfor %}

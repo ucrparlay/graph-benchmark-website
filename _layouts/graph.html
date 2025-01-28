@@ -32,7 +32,7 @@ breadcrumbs:
             <th scope="row">Categories</th>
             <td>
               {% for category in page.categories %}
-                <a href="{{ category.url }}">{{ category }}</a>
+                <a href="{{ site.baseurl }}/category/{{ category | slugify }}">{{ category }}</a>
                 <br/>
               {% endfor %}
             </td>

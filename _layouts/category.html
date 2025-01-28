@@ -21,7 +21,7 @@ breadcrumbs:
     <tbody>
         {% for graph in page.paginator.posts limit:page.paginator.per_page %}
             <tr>
-                <td scope="row"><a href="{{ graph.url }}">{{ graph.title }}</a></td>
+                <td scope="row"><a href="{{ site.baseurl }}{{ graph.url }}">{{ graph.title }}</a></td>
                 <td>{{ graph.generation_type }}</td>
                 <td>{{ graph.nodes }}</td>
                 <td>{{ graph.edges }}</td>
@@ -43,7 +43,7 @@ breadcrumbs:
                         <ul class="pagination justify-content-center">
                             {% for button in buttons %}
                                 <li class="page-item{% if button.disabled == true %} disabled{% endif %}{% if button.active == true %} active{% endif %}">
-                                    <a class="page-link" href="{{ button.href }}">{{ button.title }}</a>
+                                    <a class="page-link" href="{{ site.baseurl }}{{ button.href }}">{{ button.title }}</a>
                                 </li>
                             {% endfor %}
                         </ul>
