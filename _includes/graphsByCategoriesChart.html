@@ -1,0 +1,46 @@
+<canvas id="graphsByCategoriesChart" style="width:100%;max-width:700px"></canvas>
+<script>
+    const categories = {
+    {% for category in site.categories %}
+        {% assign category_name = category | first %}
+        "{{ category_name }}": {{ site.posts | where_exp: "post", "post.categories contains category_name" | size }},
+    {% endfor %}
+    }
+
+    const graphsByCategoriesChartContainer = document.getElementById('graphsByCategoriesChart');
+    const graphsByCategoriesChart = new Chart(graphsByCategoriesChartContainer, {
+        type: 'bar',
+        data: {
+            labels: Object.keys(categories),
+            datasets: [{
+                label: '# of Graphs',
+                data: Object.values(categories),
+                borderWidth: 1,
+            }]
+        },
+        options: {
+            layout: {
+                padding: {
+                    top: 30
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                }
+            },
+            plugins: {
+                datalabels: {
+                    anchor: "end",
+                    align: "top",
+                    font: {
+                        size: "16px"
+                    }
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        }
+    });
+</script>

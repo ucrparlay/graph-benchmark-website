@@ -1,14 +1,13 @@
 ---
 layout: default
 title: Graphs
-permalink: /graphs/
 ---
-
 <table class="table table-hover table-responsive-lg">
     <thead>
         <tr>
             <th scope="col">Graph Name</th>
             <th scope="col">Categories</th>
+            <th scope="col">Generation Type</th>
             <th scope="col">Vertices</th>
             <th scope="col">Edges</th>
             <th scope="col">Density</th>
@@ -18,20 +17,20 @@ permalink: /graphs/
         </tr>
     </thead>
     <tbody>
-        {% for graph in site.graphs %}
+        {% for graph in paginator.posts %}
             <tr>
                 <td scope="row"><a href="{{ graph.url }}">{{ graph.title }}</a></td>
                 <td>
                     {% if graph.categories %}
-                        {% for category_id in graph.categories %}
-                            {% assign category = site.categories | find: "id", category_id %}
-                            <a href="{{ category.url }}">{{ category.title }}</a>
+                        {% for category in graph.categories %}
+                            <a href="{{ site.url }}/category/{{ category | slugify }}/index.html">{{ category }}</a>
                             <br />
                         {% endfor %}
                     {% else %}
                         -
                     {% endif %}
                 </td>
+                <td>{{ graph.generation_type }}</td>
                 <td>{{ graph.nodes }}</td>
                 <td>{{ graph.edges }}</td>
                 <td>{{ graph.density }}</td>
@@ -41,4 +40,22 @@ permalink: /graphs/
             </tr>
         {% endfor %}
     </tbody>
+    <tfoot>
+        <tr>
+            <td scope="row" colspan="8">
+                {% assign buttons = paginator | pagination_buttons: "/graphs/" %}
+                {% if buttons %}
+                    <nav aria-label="Graph pages">
+                        <ul class="pagination justify-content-center">
+                            {% for button in buttons %}
+                                <li class="page-item{% if button.disabled == true %} disabled{% endif %}{% if button.active == true %} active{% endif %}">
+                                    <a class="page-link" href="{{ button.href }}">{{ button.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                {% endif %}
+            </td>
+        </tr>
+    </tfoot>
 </table>

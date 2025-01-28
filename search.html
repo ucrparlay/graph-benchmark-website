@@ -1,0 +1,40 @@
+---
+layout: default
+title: Search Results
+id: search
+---
+<p class="h3" id="search-heading"></p>
+<table class="table table-hover table-responsive-lg">
+    <thead>
+        <tr>
+            <th scope="col">Graph Name</th>
+            <th scope="col">Categories</th>
+            <!-- <th scope="col">Generation Type</th> -->
+            <!-- <th scope="col">Vertices</th> -->
+            <!-- <th scope="col">Edges</th> -->
+            <!-- <th scope="col">Density</th> -->
+            <!-- <th scope="col">Max Degree</th> -->
+            <!-- <th scope="col">Min Degree</th> -->
+            <!-- <th scope="col">Avg Degree</th> -->
+        </tr>
+    </thead>
+    <tbody id="search-results"></tbody>
+</table>
+<script>
+    window.store = {
+      {% for graph in site.posts %}
+        "{{ graph.url | slugify }}": {
+          "title": "{{ graph.title | xml_escape }}",
+          "categories": [
+            {% for category in graph.categories %}
+                {"title": "{{ category | xml_escape}}", "url": "{{ category | slugify}}"},
+            {% endfor %}
+          ],
+        //   "content": {{ graph.content | strip_html | strip_newlines | jsonify }},
+          "url": "{{ graph.url | xml_escape }}"
+        },
+      {% endfor %}
+    };
+</script>
+<script src="assets/js/lunr.min.js"></script>
+<script src="assets/js/search.js"></script>
