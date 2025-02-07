@@ -1,0 +1,2042 @@
+{
+  "links/CHEM_10.bin": {
+    "title": "CHEM_10",
+    "path": "links/CHEM_10.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 9081,
+    "edges_count": 13501659,
+    "density": 0.3274896707896188,
+    "avg_degree": 1486.8031053848695,
+    "max_degree": 7040,
+    "min_degree": 1323
+  },
+  "links/CHEM_10_sym.bin": {
+    "title": "CHEM_10_sym",
+    "path": "links/CHEM_10_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 9197,
+    "edges_count": 36257657,
+    "density": 0.8574021787746567,
+    "avg_degree": 3942.3352180058714,
+    "max_degree": 6813,
+    "min_degree": 3712
+  },
+  "links/CHEM_2.bin": {
+    "title": "CHEM_2",
+    "path": "links/CHEM_2.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 4740,
+    "edges_count": 7430720,
+    "density": 0.661600526379989,
+    "avg_degree": 1567.662447257384,
+    "max_degree": 4692,
+    "min_degree": 710
+  },
+  "links/CHEM_2_sym.bin": {
+    "title": "CHEM_2_sym",
+    "path": "links/CHEM_2_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 5230,
+    "edges_count": 1728709,
+    "density": 0.12642459119917712,
+    "avg_degree": 330.5370936902486,
+    "max_degree": 4040,
+    "min_degree": 128
+  },
+  "links/CHEM_5.bin": {
+    "title": "CHEM_5",
+    "path": "links/CHEM_5.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 1783,
+    "edges_count": 348832,
+    "density": 0.21957721415564002,
+    "avg_degree": 195.64329781267526,
+    "max_degree": 1628,
+    "min_degree": 52
+  },
+  "links/CHEM_5_sym.bin": {
+    "title": "CHEM_5_sym",
+    "path": "links/CHEM_5_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 9489,
+    "edges_count": 38488337,
+    "density": 0.8549958752274979,
+    "avg_degree": 4056.1004320792495,
+    "max_degree": 6108,
+    "min_degree": 389
+  },
+  "links/Cosmo50_10.bin": {
+    "title": "Cosmo50_10",
+    "path": "links/Cosmo50_10.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 7261,
+    "edges_count": 18603185,
+    "density": 0.7058042077698774,
+    "avg_degree": 2562.069274204655,
+    "max_degree": 5273,
+    "min_degree": 265
+  },
+  "links/Cosmo50_10_sym.bin": {
+    "title": "Cosmo50_10_sym",
+    "path": "links/Cosmo50_10_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 3336,
+    "edges_count": 2252198,
+    "density": 0.40486914815973307,
+    "avg_degree": 675.1193045563549,
+    "max_degree": 1358,
+    "min_degree": 507
+  },
+  "links/Cosmo50_2.bin": {
+    "title": "Cosmo50_2",
+    "path": "links/Cosmo50_2.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 8326,
+    "edges_count": 11908097,
+    "density": 0.3435988570843243,
+    "avg_degree": 1430.2302426135,
+    "max_degree": 4074,
+    "min_degree": 582
+  },
+  "links/Cosmo50_2_sym.bin": {
+    "title": "Cosmo50_2_sym",
+    "path": "links/Cosmo50_2_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 9035,
+    "edges_count": 12555521,
+    "density": 0.3076496967307542,
+    "avg_degree": 1389.6536801328168,
+    "max_degree": 1598,
+    "min_degree": 886
+  },
+  "links/Cosmo50_5.bin": {
+    "title": "Cosmo50_5",
+    "path": "links/Cosmo50_5.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 6944,
+    "edges_count": 8874050,
+    "density": 0.3681247266251657,
+    "avg_degree": 1277.9449884792627,
+    "max_degree": 2452,
+    "min_degree": 66
+  },
+  "links/Cosmo50_5_sym.bin": {
+    "title": "Cosmo50_5_sym",
+    "path": "links/Cosmo50_5_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 2000,
+    "edges_count": 1855910,
+    "density": 0.9284192096048024,
+    "avg_degree": 927.955,
+    "max_degree": 1839,
+    "min_degree": 232
+  },
+  "links/DBLP_sym.bin": {
+    "title": "DBLP_sym",
+    "path": "links/DBLP_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 1864,
+    "edges_count": 1069560,
+    "density": 0.6159938628682797,
+    "avg_degree": 573.7982832618026,
+    "max_degree": 912,
+    "min_degree": 348
+  },
+  "links/Epinions1_sym.bin": {
+    "title": "Epinions1_sym",
+    "path": "links/Epinions1_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 6577,
+    "edges_count": 1434600,
+    "density": 0.06633934447516172,
+    "avg_degree": 218.12376463433176,
+    "max_degree": 5075,
+    "min_degree": 47
+  },
+  "links/GeoLifeNoScale_10.bin": {
+    "title": "GeoLifeNoScale_10",
+    "path": "links/GeoLifeNoScale_10.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 4979,
+    "edges_count": 853203,
+    "density": 0.06884705235674042,
+    "avg_degree": 171.3603133159269,
+    "max_degree": 4715,
+    "min_degree": 25
+  },
+  "links/GeoLifeNoScale_10_sym.bin": {
+    "title": "GeoLifeNoScale_10_sym",
+    "path": "links/GeoLifeNoScale_10_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 2048,
+    "edges_count": 605873,
+    "density": 0.289043894265999,
+    "avg_degree": 295.83642578125,
+    "max_degree": 793,
+    "min_degree": 196
+  },
+  "links/GeoLifeNoScale_15.bin": {
+    "title": "GeoLifeNoScale_15",
+    "path": "links/GeoLifeNoScale_15.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 9330,
+    "edges_count": 27651928,
+    "density": 0.6353875139778379,
+    "avg_degree": 2963.7650589496247,
+    "max_degree": 2965,
+    "min_degree": 2148
+  },
+  "links/GeoLifeNoScale_15_sym.bin": {
+    "title": "GeoLifeNoScale_15_sym",
+    "path": "links/GeoLifeNoScale_15_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 8666,
+    "edges_count": 31320015,
+    "density": 0.8341894735832802,
+    "avg_degree": 3614.1258942995614,
+    "max_degree": 6948,
+    "min_degree": 3079
+  },
+  "links/GeoLifeNoScale_2.bin": {
+    "title": "GeoLifeNoScale_2",
+    "path": "links/GeoLifeNoScale_2.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 2194,
+    "edges_count": 1444304,
+    "density": 0.6003622198916666,
+    "avg_degree": 658.2971741112124,
+    "max_degree": 1226,
+    "min_degree": 582
+  },
+  "links/GeoLifeNoScale_20.bin": {
+    "title": "GeoLifeNoScale_20",
+    "path": "links/GeoLifeNoScale_20.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 5955,
+    "edges_count": 12733146,
+    "density": 0.7182491460559504,
+    "avg_degree": 2138.2277078085644,
+    "max_degree": 2453,
+    "min_degree": 853
+  },
+  "links/GeoLifeNoScale_20_sym.bin": {
+    "title": "GeoLifeNoScale_20_sym",
+    "path": "links/GeoLifeNoScale_20_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 1076,
+    "edges_count": 450874,
+    "density": 0.7795867554249157,
+    "avg_degree": 419.02788104089217,
+    "max_degree": 498,
+    "min_degree": 408
+  },
+  "links/GeoLifeNoScale_2_sym.bin": {
+    "title": "GeoLifeNoScale_2_sym",
+    "path": "links/GeoLifeNoScale_2_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 6573,
+    "edges_count": 8224377,
+    "density": 0.3807779737447473,
+    "avg_degree": 1251.2364217252396,
+    "max_degree": 2549,
+    "min_degree": 1058
+  },
+  "links/GeoLifeNoScale_5.bin": {
+    "title": "GeoLifeNoScale_5",
+    "path": "links/GeoLifeNoScale_5.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 9376,
+    "edges_count": 24950776,
+    "density": 0.5677082138794084,
+    "avg_degree": 2661.132252559727,
+    "max_degree": 7410,
+    "min_degree": 2325
+  },
+  "links/GeoLifeNoScale_5_sym.bin": {
+    "title": "GeoLifeNoScale_5_sym",
+    "path": "links/GeoLifeNoScale_5_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 7783,
+    "edges_count": 22146628,
+    "density": 0.7313063585823019,
+    "avg_degree": 2845.5130412437366,
+    "max_degree": 2867,
+    "min_degree": 765
+  },
+  "links/Germany_sym.bin": {
+    "title": "Germany_sym",
+    "path": "links/Germany_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 3124,
+    "edges_count": 2591153,
+    "density": 0.5311779564529493,
+    "avg_degree": 829.4343790012804,
+    "max_degree": 1747,
+    "min_degree": 95
+  },
+  "links/HT_10.bin": {
+    "title": "HT_10",
+    "path": "links/HT_10.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 2742,
+    "edges_count": 3212670,
+    "density": 0.8549084850599176,
+    "avg_degree": 1171.6520787746172,
+    "max_degree": 2075,
+    "min_degree": 380
+  },
+  "links/HT_10_sym.bin": {
+    "title": "HT_10_sym",
+    "path": "links/HT_10_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 7060,
+    "edges_count": 1198214,
+    "density": 0.04808576197304227,
+    "avg_degree": 169.7186968838527,
+    "max_degree": 6703,
+    "min_degree": 84
+  },
+  "links/HT_2.bin": {
+    "title": "HT_2",
+    "path": "links/HT_2.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 443,
+    "edges_count": 59480,
+    "density": 0.6075401162375004,
+    "avg_degree": 134.26636568848758,
+    "max_degree": 232,
+    "min_degree": 100
+  },
+  "links/HT_2_sym.bin": {
+    "title": "HT_2_sym",
+    "path": "links/HT_2_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 5794,
+    "edges_count": 13812155,
+    "density": 0.8230181629823431,
+    "avg_degree": 2383.872109078357,
+    "max_degree": 2713,
+    "min_degree": 2012
+  },
+  "links/HT_5.bin": {
+    "title": "HT_5",
+    "path": "links/HT_5.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 3933,
+    "edges_count": 1902909,
+    "density": 0.24609940304784697,
+    "avg_degree": 483.8314263920671,
+    "max_degree": 2950,
+    "min_degree": 18
+  },
+  "links/HT_5_sym.bin": {
+    "title": "HT_5_sym",
+    "path": "links/HT_5_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 5852,
+    "edges_count": 1191495,
+    "density": 0.06959656486502999,
+    "avg_degree": 203.60475051264524,
+    "max_degree": 5090,
+    "min_degree": 109
+  },
+  "links/HepPh_sym.bin": {
+    "title": "HepPh_sym",
+    "path": "links/HepPh_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 5987,
+    "edges_count": 12789301,
+    "density": 0.7137248758879566,
+    "avg_degree": 2136.178553532654,
+    "max_degree": 2983,
+    "min_degree": 1731
+  },
+  "links/Household_10.bin": {
+    "title": "Household_10",
+    "path": "links/Household_10.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 2349,
+    "edges_count": 2277461,
+    "density": 0.8258474554759972,
+    "avg_degree": 969.5449127288208,
+    "max_degree": 1494,
+    "min_degree": 798
+  },
+  "links/Household_10_sym.bin": {
+    "title": "Household_10_sym",
+    "path": "links/Household_10_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 8675,
+    "edges_count": 1362482,
+    "density": 0.036213613973722525,
+    "avg_degree": 157.0584438040346,
+    "max_degree": 3395,
+    "min_degree": 60
+  },
+  "links/Household_2.bin": {
+    "title": "Household_2",
+    "path": "links/Household_2.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 3526,
+    "edges_count": 1241644,
+    "density": 0.19979548078508988,
+    "avg_degree": 352.13953488372096,
+    "max_degree": 2998,
+    "min_degree": 167
+  },
+  "links/Household_2_sym.bin": {
+    "title": "Household_2_sym",
+    "path": "links/Household_2_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 8451,
+    "edges_count": 9086852,
+    "density": 0.2544946398276455,
+    "avg_degree": 1075.239853271802,
+    "max_degree": 1551,
+    "min_degree": 24
+  },
+  "links/Household_5.bin": {
+    "title": "Household_5",
+    "path": "links/Household_5.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 6086,
+    "edges_count": 1805705,
+    "density": 0.09751788322458889,
+    "avg_degree": 296.6981597108117,
+    "max_degree": 5942,
+    "min_degree": 177
+  },
+  "links/Household_5_sym.bin": {
+    "title": "Household_5_sym",
+    "path": "links/Household_5_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 6206,
+    "edges_count": 8252781,
+    "density": 0.4286242707078461,
+    "avg_degree": 1329.8067998710924,
+    "max_degree": 4806,
+    "min_degree": 128
+  },
+  "links/NotreDame_sym.bin": {
+    "title": "NotreDame_sym",
+    "path": "links/NotreDame_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 4593,
+    "edges_count": 871487,
+    "density": 0.08264043298732884,
+    "avg_degree": 189.74243413890704,
+    "max_degree": 3262,
+    "min_degree": 129
+  },
+  "links/RoadUSA_sym.bin": {
+    "title": "RoadUSA_sym",
+    "path": "links/RoadUSA_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 4302,
+    "edges_count": 3188575,
+    "density": 0.3446567462768813,
+    "avg_degree": 741.1843328684333,
+    "max_degree": 2276,
+    "min_degree": 528
+  },
+  "links/Slashdot_sym.bin": {
+    "title": "Slashdot_sym",
+    "path": "links/Slashdot_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 6874,
+    "edges_count": 20234592,
+    "density": 0.856581273930309,
+    "avg_degree": 2943.641547861507,
+    "max_degree": 3767,
+    "min_degree": 343
+  },
+  "links/WikiTalk_sym.bin": {
+    "title": "WikiTalk_sym",
+    "path": "links/WikiTalk_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 375,
+    "edges_count": 44939,
+    "density": 0.6408413547237076,
+    "avg_degree": 119.83733333333333,
+    "max_degree": 221,
+    "min_degree": 25
+  },
+  "links/africa.bin": {
+    "title": "africa",
+    "path": "links/africa.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 2784,
+    "edges_count": 2246231,
+    "density": 0.5798317266986341,
+    "avg_degree": 806.8358477011494,
+    "max_degree": 1398,
+    "min_degree": 500
+  },
+  "links/africa_sym.bin": {
+    "title": "africa_sym",
+    "path": "links/africa_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 7466,
+    "edges_count": 1816363,
+    "density": 0.06518007330933946,
+    "avg_degree": 243.28462362710957,
+    "max_degree": 3508,
+    "min_degree": 152
+  },
+  "links/arabic_sym.bin": {
+    "title": "arabic_sym",
+    "path": "links/arabic_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 2958,
+    "edges_count": 4211676,
+    "density": 0.963020329935293,
+    "avg_degree": 1423.8255578093306,
+    "max_degree": 1955,
+    "min_degree": 399
+  },
+  "links/asia.bin": {
+    "title": "asia",
+    "path": "links/asia.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 7999,
+    "edges_count": 3469327,
+    "density": 0.1084571367870096,
+    "avg_degree": 433.7200900112514,
+    "max_degree": 895,
+    "min_degree": 337
+  },
+  "links/asia_sym.bin": {
+    "title": "asia_sym",
+    "path": "links/asia_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 5589,
+    "edges_count": 3577058,
+    "density": 0.22906855205535262,
+    "avg_degree": 640.0175344426552,
+    "max_degree": 1355,
+    "min_degree": 623
+  },
+  "links/chain_1e7.bin": {
+    "title": "chain_1e7",
+    "path": "links/chain_1e7.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 6724,
+    "edges_count": 15633119,
+    "density": 0.6916475030489685,
+    "avg_degree": 2324.9730814991076,
+    "max_degree": 3910,
+    "min_degree": 281
+  },
+  "links/chain_1e7_sym.bin": {
+    "title": "chain_1e7_sym",
+    "path": "links/chain_1e7_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 1173,
+    "edges_count": 551964,
+    "density": 0.802999223134869,
+    "avg_degree": 470.55754475703327,
+    "max_degree": 582,
+    "min_degree": 198
+  },
+  "links/chain_1e8.bin": {
+    "title": "chain_1e8",
+    "path": "links/chain_1e8.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 607,
+    "edges_count": 52891,
+    "density": 0.28757455646717883,
+    "avg_degree": 87.13509060955519,
+    "max_degree": 574,
+    "min_degree": 43
+  },
+  "links/chain_1e8_sym.bin": {
+    "title": "chain_1e8_sym",
+    "path": "links/chain_1e8_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 57,
+    "edges_count": 976,
+    "density": 0.6115288220551378,
+    "avg_degree": 17.12280701754386,
+    "max_degree": 52,
+    "min_degree": 0
+  },
+  "links/com-orkut_sym.bin": {
+    "title": "com-orkut_sym",
+    "path": "links/com-orkut_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 4211,
+    "edges_count": 374706,
+    "density": 0.04227204962007095,
+    "avg_degree": 88.98266445024935,
+    "max_degree": 1788,
+    "min_degree": 2
+  },
+  "links/com-youtube_sym.bin": {
+    "title": "com-youtube_sym",
+    "path": "links/com-youtube_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 6991,
+    "edges_count": 19532220,
+    "density": 0.7994018060007256,
+    "avg_degree": 2793.909311972536,
+    "max_degree": 5996,
+    "min_degree": 345
+  },
+  "links/enwiki-2023.bin": {
+    "title": "enwiki-2023",
+    "path": "links/enwiki-2023.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 7834,
+    "edges_count": 29247840,
+    "density": 0.9532616030038074,
+    "avg_degree": 3733.4490681644115,
+    "max_degree": 7637,
+    "min_degree": 421
+  },
+  "links/enwiki-2023_sym.bin": {
+    "title": "enwiki-2023_sym",
+    "path": "links/enwiki-2023_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 7819,
+    "edges_count": 11679750,
+    "density": 0.3821348650202387,
+    "avg_degree": 1493.765187364113,
+    "max_degree": 7012,
+    "min_degree": 122
+  },
+  "links/eu-2015-host.bin": {
+    "title": "eu-2015-host",
+    "path": "links/eu-2015-host.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 3564,
+    "edges_count": 4171094,
+    "density": 0.6569411330380551,
+    "avg_degree": 1170.3406285072952,
+    "max_degree": 3026,
+    "min_degree": 350
+  },
+  "links/eu-2015-host_sym.bin": {
+    "title": "eu-2015-host_sym",
+    "path": "links/eu-2015-host_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 6692,
+    "edges_count": 20541387,
+    "density": 0.9175142082266434,
+    "avg_degree": 3069.5437836222354,
+    "max_degree": 4783,
+    "min_degree": 884
+  },
+  "links/europe.bin": {
+    "title": "europe",
+    "path": "links/europe.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 1067,
+    "edges_count": 552389,
+    "density": 0.9713000100226653,
+    "avg_degree": 517.7029053420806,
+    "max_degree": 794,
+    "min_degree": 352
+  },
+  "links/europe_sym.bin": {
+    "title": "europe_sym",
+    "path": "links/europe_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 579,
+    "edges_count": 137205,
+    "density": 0.8199616329311364,
+    "avg_degree": 236.96891191709844,
+    "max_degree": 363,
+    "min_degree": 160
+  },
+  "links/flickr_sym.bin": {
+    "title": "flickr_sym",
+    "path": "links/flickr_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 3606,
+    "edges_count": 3795970,
+    "density": 0.5840120064955695,
+    "avg_degree": 1052.681641708264,
+    "max_degree": 2016,
+    "min_degree": 782
+  },
+  "links/friendster_sym.bin": {
+    "title": "friendster_sym",
+    "path": "links/friendster_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 1789,
+    "edges_count": 855056,
+    "density": 0.5346218439056476,
+    "avg_degree": 477.95192845164894,
+    "max_degree": 1577,
+    "min_degree": 132
+  },
+  "links/grid_10000_10000.bin": {
+    "title": "grid_10000_10000",
+    "path": "links/grid_10000_10000.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 2582,
+    "edges_count": 2101080,
+    "density": 0.630562794130137,
+    "avg_degree": 813.7412858249419,
+    "max_degree": 1650,
+    "min_degree": 786
+  },
+  "links/grid_10000_10000_03.bin": {
+    "title": "grid_10000_10000_03",
+    "path": "links/grid_10000_10000_03.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 9175,
+    "edges_count": 6844506,
+    "density": 0.16263248405486658,
+    "avg_degree": 745.995204359673,
+    "max_degree": 9075,
+    "min_degree": 617
+  },
+  "links/grid_10000_10000_03_sym.bin": {
+    "title": "grid_10000_10000_03_sym",
+    "path": "links/grid_10000_10000_03_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 7095,
+    "edges_count": 14580552,
+    "density": 0.5793758355779324,
+    "avg_degree": 2055.046088794926,
+    "max_degree": 4892,
+    "min_degree": 854
+  },
+  "links/grid_10000_10000_sym.bin": {
+    "title": "grid_10000_10000_sym",
+    "path": "links/grid_10000_10000_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 6424,
+    "edges_count": 13078252,
+    "density": 0.6339226111640743,
+    "avg_degree": 2035.8424657534247,
+    "max_degree": 2708,
+    "min_degree": 914
+  },
+  "links/grid_1000_10000.bin": {
+    "title": "grid_1000_10000",
+    "path": "links/grid_1000_10000.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 7158,
+    "edges_count": 8008695,
+    "density": 0.3126576352836472,
+    "avg_degree": 1118.8453478625315,
+    "max_degree": 1640,
+    "min_degree": 790
+  },
+  "links/grid_1000_100000.bin": {
+    "title": "grid_1000_100000",
+    "path": "links/grid_1000_100000.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 6670,
+    "edges_count": 10216120,
+    "density": 0.45933488496417557,
+    "avg_degree": 1531.6521739130435,
+    "max_degree": 2949,
+    "min_degree": 9
+  },
+  "links/grid_1000_1000000_03_sym.bin": {
+    "title": "grid_1000_1000000_03_sym",
+    "path": "links/grid_1000_1000000_03_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 9379,
+    "edges_count": 18266008,
+    "density": 0.4153429803553953,
+    "avg_degree": 1947.5432348864485,
+    "max_degree": 6617,
+    "min_degree": 1633
+  },
+  "links/grid_1000_1000000_sym.bin": {
+    "title": "grid_1000_1000000_sym",
+    "path": "links/grid_1000_1000000_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 3008,
+    "edges_count": 941338,
+    "density": 0.20814420607235598,
+    "avg_degree": 312.9448138297872,
+    "max_degree": 834,
+    "min_degree": 113
+  },
+  "links/grid_1000_100000_03.bin": {
+    "title": "grid_1000_100000_03",
+    "path": "links/grid_1000_100000_03.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 2992,
+    "edges_count": 2082488,
+    "density": 0.4654087038298496,
+    "avg_degree": 696.0187165775401,
+    "max_degree": 980,
+    "min_degree": 266
+  },
+  "links/grid_1000_100000_03_sym.bin": {
+    "title": "grid_1000_100000_03_sym",
+    "path": "links/grid_1000_100000_03_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 9293,
+    "edges_count": 36999536,
+    "density": 0.8569611526299842,
+    "avg_degree": 3981.441515118907,
+    "max_degree": 8158,
+    "min_degree": 396
+  },
+  "links/grid_1000_100000_sym.bin": {
+    "title": "grid_1000_100000_sym",
+    "path": "links/grid_1000_100000_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 4567,
+    "edges_count": 3872468,
+    "density": 0.3714077096725341,
+    "avg_degree": 847.9238011823954,
+    "max_degree": 1481,
+    "min_degree": 417
+  },
+  "links/grid_1000_10000_03.bin": {
+    "title": "grid_1000_10000_03",
+    "path": "links/grid_1000_10000_03.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 7466,
+    "edges_count": 8480027,
+    "density": 0.30430524158726974,
+    "avg_degree": 1135.8193142244843,
+    "max_degree": 3947,
+    "min_degree": 381
+  },
+  "links/grid_1000_10000_03_sym.bin": {
+    "title": "grid_1000_10000_03_sym",
+    "path": "links/grid_1000_10000_03_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 7167,
+    "edges_count": 19367325,
+    "density": 0.754198089274885,
+    "avg_degree": 2702.291753871913,
+    "max_degree": 6084,
+    "min_degree": 2021
+  },
+  "links/grid_1000_10000_sym.bin": {
+    "title": "grid_1000_10000_sym",
+    "path": "links/grid_1000_10000_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 9852,
+    "edges_count": 43708394,
+    "density": 0.9007206565812745,
+    "avg_degree": 4436.499593991068,
+    "max_degree": 8710,
+    "min_degree": 2709
+  },
+  "links/grid_4000_4000.bin": {
+    "title": "grid_4000_4000",
+    "path": "links/grid_4000_4000.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 3127,
+    "edges_count": 970609,
+    "density": 0.19859003609411027,
+    "avg_degree": 310.39622641509436,
+    "max_degree": 1246,
+    "min_degree": 28
+  },
+  "links/grid_4000_4000_03.bin": {
+    "title": "grid_4000_4000_03",
+    "path": "links/grid_4000_4000_03.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 3713,
+    "edges_count": 6372402,
+    "density": 0.9246986937786157,
+    "avg_degree": 1716.2407756531106,
+    "max_degree": 1861,
+    "min_degree": 1491
+  },
+  "links/grid_4000_4000_03_sym.bin": {
+    "title": "grid_4000_4000_03_sym",
+    "path": "links/grid_4000_4000_03_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 6124,
+    "edges_count": 18329753,
+    "density": 0.9776584694793101,
+    "avg_degree": 2993.101404310908,
+    "max_degree": 5702,
+    "min_degree": 526
+  },
+  "links/grid_4000_4000_sym.bin": {
+    "title": "grid_4000_4000_sym",
+    "path": "links/grid_4000_4000_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 8599,
+    "edges_count": 35705489,
+    "density": 0.9658720330815229,
+    "avg_degree": 4152.283870217467,
+    "max_degree": 4881,
+    "min_degree": 2919
+  },
+  "links/hollywood_2009_sym.bin": {
+    "title": "hollywood_2009_sym",
+    "path": "links/hollywood_2009_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 3732,
+    "edges_count": 2324313,
+    "density": 0.33385487542024284,
+    "avg_degree": 622.806270096463,
+    "max_degree": 1326,
+    "min_degree": 299
+  },
+  "links/hugebubbles-00020_sym.bin": {
+    "title": "hugebubbles-00020_sym",
+    "path": "links/hugebubbles-00020_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 1894,
+    "edges_count": 7055,
+    "density": 0.003935468359782693,
+    "avg_degree": 3.724920802534319,
+    "max_degree": 86,
+    "min_degree": 1
+  },
+  "links/hugetrace-00020_sym.bin": {
+    "title": "hugetrace-00020_sym",
+    "path": "links/hugetrace-00020_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 8120,
+    "edges_count": 9891682,
+    "density": 0.30008312314906893,
+    "avg_degree": 1218.1874384236453,
+    "max_degree": 5132,
+    "min_degree": 781
+  },
+  "links/links/in_2004_sym.bin": {
+    "title": "links",
+    "path": "links/links/in_2004_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 2676,
+    "edges_count": 266085,
+    "density": 0.07434307028205021,
+    "avg_degree": 99.43385650224215,
+    "max_degree": 715,
+    "min_degree": 52
+  },
+  "links/indochina_sym.bin": {
+    "title": "indochina_sym",
+    "path": "links/indochina_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 2703,
+    "edges_count": 47040,
+    "density": 0.012881484591099125,
+    "avg_degree": 17.402885682574915,
+    "max_degree": 494,
+    "min_degree": 1
+  },
+  "links/north-america.bin": {
+    "title": "north-america",
+    "path": "links/north-america.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 9108,
+    "edges_count": 1035461,
+    "density": 0.024966943775218346,
+    "avg_degree": 113.68697848045674,
+    "max_degree": 1349,
+    "min_degree": 77
+  },
+  "links/north-america_sym.bin": {
+    "title": "north-america_sym",
+    "path": "links/north-america_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 4297,
+    "edges_count": 2981793,
+    "density": 0.32305603623679247,
+    "avg_degree": 693.9243658366302,
+    "max_degree": 1281,
+    "min_degree": 245
+  },
+  "links/planet.bin": {
+    "title": "planet",
+    "path": "links/planet.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 3155,
+    "edges_count": 4332195,
+    "density": 0.8707168317946069,
+    "avg_degree": 1373.1204437400952,
+    "max_degree": 2184,
+    "min_degree": 915
+  },
+  "links/planet_sym.bin": {
+    "title": "planet_sym",
+    "path": "links/planet_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 45,
+    "edges_count": 368,
+    "density": 0.3717171717171717,
+    "avg_degree": 8.177777777777777,
+    "max_degree": 42,
+    "min_degree": 5
+  },
+  "links/roadNet-CA_sym.bin": {
+    "title": "roadNet-CA_sym",
+    "path": "links/roadNet-CA_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 4059,
+    "edges_count": 6693570,
+    "density": 0.8127495003163662,
+    "avg_degree": 1649.0687361419068,
+    "max_degree": 3881,
+    "min_degree": 142
+  },
+  "links/sd_arc.bin": {
+    "title": "sd_arc",
+    "path": "links/sd_arc.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 9721,
+    "edges_count": 17882633,
+    "density": 0.3785160081500193,
+    "avg_degree": 1839.5877996090937,
+    "max_degree": 5345,
+    "min_degree": 1326
+  },
+  "links/sd_arc_sym.bin": {
+    "title": "sd_arc_sym",
+    "path": "links/sd_arc_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 9265,
+    "edges_count": 36639216,
+    "density": 0.8537529115368161,
+    "avg_degree": 3954.5834862385323,
+    "max_degree": 5864,
+    "min_degree": 3616
+  },
+  "links/skitter_sym.bin": {
+    "title": "skitter_sym",
+    "path": "links/skitter_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 4256,
+    "edges_count": 5037185,
+    "density": 0.5563098035924123,
+    "avg_degree": 1183.549107142857,
+    "max_degree": 1923,
+    "min_degree": 1010
+  },
+  "links/soc-LiveJournal1.bin": {
+    "title": "soc-LiveJournal1",
+    "path": "links/soc-LiveJournal1.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 8049,
+    "edges_count": 9328769,
+    "density": 0.2880211895480144,
+    "avg_degree": 1158.99726674121,
+    "max_degree": 2233,
+    "min_degree": 879
+  },
+  "links/soc-LiveJournal1_sym.bin": {
+    "title": "soc-LiveJournal1_sym",
+    "path": "links/soc-LiveJournal1_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 7777,
+    "edges_count": 8040269,
+    "density": 0.26590850222588397,
+    "avg_degree": 1033.852256654237,
+    "max_degree": 7758,
+    "min_degree": 691
+  },
+  "links/socfb-konect_sym.bin": {
+    "title": "socfb-konect_sym",
+    "path": "links/socfb-konect_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 3644,
+    "edges_count": 6362448,
+    "density": 0.9585542608668927,
+    "avg_degree": 1746.006586169045,
+    "max_degree": 2859,
+    "min_degree": 823
+  },
+  "links/socfb-uci-uni_sym.bin": {
+    "title": "socfb-uci-uni_sym",
+    "path": "links/socfb-uci-uni_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 6746,
+    "edges_count": 15707976,
+    "density": 0.690433624889757,
+    "avg_degree": 2328.4873999407055,
+    "max_degree": 3662,
+    "min_degree": 1425
+  },
+  "links/twitter.bin": {
+    "title": "twitter",
+    "path": "links/twitter.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 4373,
+    "edges_count": 2535321,
+    "density": 0.265218197250909,
+    "avg_degree": 579.7669791904871,
+    "max_degree": 3843,
+    "min_degree": 25
+  },
+  "links/twitter_sym.bin": {
+    "title": "twitter_sym",
+    "path": "links/twitter_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 428,
+    "edges_count": 24239,
+    "density": 0.2652607848716321,
+    "avg_degree": 56.63317757009346,
+    "max_degree": 85,
+    "min_degree": 49
+  },
+  "links/uk-2002_sym.bin": {
+    "title": "uk-2002_sym",
+    "path": "links/uk-2002_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 3842,
+    "edges_count": 491188,
+    "density": 0.06656961974021763,
+    "avg_degree": 127.84695471108797,
+    "max_degree": 748,
+    "min_degree": 25
+  },
+  "links/us.bin": {
+    "title": "us",
+    "path": "links/us.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 7128,
+    "edges_count": 13538722,
+    "density": 0.5330073728885758,
+    "avg_degree": 1899.37177328844,
+    "max_degree": 5535,
+    "min_degree": 174
+  },
+  "links/us_sym.bin": {
+    "title": "us_sym",
+    "path": "links/us_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 4414,
+    "edges_count": 5269722,
+    "density": 0.5410674952109921,
+    "avg_degree": 1193.8654281830538,
+    "max_degree": 4068,
+    "min_degree": 759
+  },
+  "links/web-Google_sym.bin": {
+    "title": "web-Google_sym",
+    "path": "links/web-Google_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 3800,
+    "edges_count": 4091453,
+    "density": 0.5668324074202352,
+    "avg_degree": 1076.6981578947368,
+    "max_degree": 2814,
+    "min_degree": 221
+  }
+}

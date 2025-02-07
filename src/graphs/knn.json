@@ -1,0 +1,682 @@
+{
+  "knn/CHEM_10.bin": {
+    "title": "CHEM_10",
+    "path": "knn/CHEM_10.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 3174,
+    "edges_count": 1999601,
+    "density": 0.39709676259857163,
+    "avg_degree": 629.9940138626339,
+    "max_degree": 2490,
+    "min_degree": 290
+  },
+  "knn/CHEM_10_sym.bin": {
+    "title": "CHEM_10_sym",
+    "path": "knn/CHEM_10_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 2146,
+    "edges_count": 20032,
+    "density": 0.00870356732425698,
+    "avg_degree": 9.33457595526561,
+    "max_degree": 296,
+    "min_degree": 8
+  },
+  "knn/CHEM_2.bin": {
+    "title": "CHEM_2",
+    "path": "knn/CHEM_2.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 9546,
+    "edges_count": 3709239,
+    "density": 0.08141744141597955,
+    "avg_degree": 388.5647391577624,
+    "max_degree": 1746,
+    "min_degree": 126
+  },
+  "knn/CHEM_2_sym.bin": {
+    "title": "CHEM_2_sym",
+    "path": "knn/CHEM_2_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 9653,
+    "edges_count": 21616657,
+    "density": 0.4640223591187776,
+    "avg_degree": 2239.3719051072208,
+    "max_degree": 4115,
+    "min_degree": 1449
+  },
+  "knn/CHEM_5.bin": {
+    "title": "CHEM_5",
+    "path": "knn/CHEM_5.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 1060,
+    "edges_count": 417978,
+    "density": 0.7447004115666257,
+    "avg_degree": 394.3188679245283,
+    "max_degree": 750,
+    "min_degree": 375
+  },
+  "knn/CHEM_5_sym.bin": {
+    "title": "CHEM_5_sym",
+    "path": "knn/CHEM_5_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 9381,
+    "edges_count": 36340505,
+    "density": 0.8259789498757754,
+    "avg_degree": 3873.8412749173863,
+    "max_degree": 5520,
+    "min_degree": 2355
+  },
+  "knn/Cosmo50_10.bin": {
+    "title": "Cosmo50_10",
+    "path": "knn/Cosmo50_10.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 9608,
+    "edges_count": 6107610,
+    "density": 0.13233676318622445,
+    "avg_degree": 635.6796419650292,
+    "max_degree": 1332,
+    "min_degree": 357
+  },
+  "knn/Cosmo50_10_sym.bin": {
+    "title": "Cosmo50_10_sym",
+    "path": "knn/Cosmo50_10_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 3537,
+    "edges_count": 3642302,
+    "density": 0.5824499761410403,
+    "avg_degree": 1029.7715578173593,
+    "max_degree": 1458,
+    "min_degree": 1012
+  },
+  "knn/Cosmo50_2.bin": {
+    "title": "Cosmo50_2",
+    "path": "knn/Cosmo50_2.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 4298,
+    "edges_count": 2269418,
+    "density": 0.24576086446840908,
+    "avg_degree": 528.017217310377,
+    "max_degree": 2288,
+    "min_degree": 199
+  },
+  "knn/Cosmo50_2_sym.bin": {
+    "title": "Cosmo50_2_sym",
+    "path": "knn/Cosmo50_2_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 3329,
+    "edges_count": 97280,
+    "density": 0.017561291217043695,
+    "avg_degree": 29.22198858516071,
+    "max_degree": 82,
+    "min_degree": 25
+  },
+  "knn/Cosmo50_5.bin": {
+    "title": "Cosmo50_5",
+    "path": "knn/Cosmo50_5.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 7871,
+    "edges_count": 11735730,
+    "density": 0.37890947048475604,
+    "avg_degree": 1491.008766357515,
+    "max_degree": 5640,
+    "min_degree": 1075
+  },
+  "knn/Cosmo50_5_sym.bin": {
+    "title": "Cosmo50_5_sym",
+    "path": "knn/Cosmo50_5_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 145,
+    "edges_count": 3325,
+    "density": 0.3184865900383142,
+    "avg_degree": 22.93103448275862,
+    "max_degree": 137,
+    "min_degree": 17
+  },
+  "knn/GeoLifeNoScale_10.bin": {
+    "title": "GeoLifeNoScale_10",
+    "path": "knn/GeoLifeNoScale_10.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 582,
+    "edges_count": 33383,
+    "density": 0.19744959218316566,
+    "avg_degree": 57.35910652920962,
+    "max_degree": 466,
+    "min_degree": 46
+  },
+  "knn/GeoLifeNoScale_10_sym.bin": {
+    "title": "GeoLifeNoScale_10_sym",
+    "path": "knn/GeoLifeNoScale_10_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 9694,
+    "edges_count": 46825957,
+    "density": 0.9966792793771891,
+    "avg_degree": 4830.406127501547,
+    "max_degree": 7139,
+    "min_degree": 293
+  },
+  "knn/GeoLifeNoScale_15.bin": {
+    "title": "GeoLifeNoScale_15",
+    "path": "knn/GeoLifeNoScale_15.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 9051,
+    "edges_count": 4774164,
+    "density": 0.11656876228077725,
+    "avg_degree": 527.4736493205171,
+    "max_degree": 5209,
+    "min_degree": 340
+  },
+  "knn/GeoLifeNoScale_15_sym.bin": {
+    "title": "GeoLifeNoScale_15_sym",
+    "path": "knn/GeoLifeNoScale_15_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 5778,
+    "edges_count": 12448924,
+    "density": 0.7459022311474591,
+    "avg_degree": 2154.538594669436,
+    "max_degree": 5052,
+    "min_degree": 1553
+  },
+  "knn/GeoLifeNoScale_2.bin": {
+    "title": "GeoLifeNoScale_2",
+    "path": "knn/GeoLifeNoScale_2.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 2799,
+    "edges_count": 207521,
+    "density": 0.05299579830537864,
+    "avg_degree": 74.14112182922473,
+    "max_degree": 811,
+    "min_degree": 23
+  },
+  "knn/GeoLifeNoScale_20.bin": {
+    "title": "GeoLifeNoScale_20",
+    "path": "knn/GeoLifeNoScale_20.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 8532,
+    "edges_count": 28725440,
+    "density": 0.7893068950211256,
+    "avg_degree": 3366.7885607126113,
+    "max_degree": 7244,
+    "min_degree": 449
+  },
+  "knn/GeoLifeNoScale_20_sym.bin": {
+    "title": "GeoLifeNoScale_20_sym",
+    "path": "knn/GeoLifeNoScale_20_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 4912,
+    "edges_count": 9579240,
+    "density": 0.7942052574921552,
+    "avg_degree": 1950.171009771987,
+    "max_degree": 1967,
+    "min_degree": 955
+  },
+  "knn/GeoLifeNoScale_2_sym.bin": {
+    "title": "GeoLifeNoScale_2_sym",
+    "path": "knn/GeoLifeNoScale_2_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 1860,
+    "edges_count": 1591947,
+    "density": 0.9208020267573618,
+    "avg_degree": 855.8854838709677,
+    "max_degree": 1387,
+    "min_degree": 39
+  },
+  "knn/GeoLifeNoScale_5.bin": {
+    "title": "GeoLifeNoScale_5",
+    "path": "knn/GeoLifeNoScale_5.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 7331,
+    "edges_count": 10802623,
+    "density": 0.40206106755163135,
+    "avg_degree": 1473.553812576729,
+    "max_degree": 6224,
+    "min_degree": 150
+  },
+  "knn/GeoLifeNoScale_5_sym.bin": {
+    "title": "GeoLifeNoScale_5_sym",
+    "path": "knn/GeoLifeNoScale_5_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 8265,
+    "edges_count": 27086782,
+    "density": 0.7931480150789231,
+    "avg_degree": 3277.28759830611,
+    "max_degree": 4796,
+    "min_degree": 2693
+  },
+  "knn/HT_10.bin": {
+    "title": "HT_10",
+    "path": "knn/HT_10.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 1228,
+    "edges_count": 327213,
+    "density": 0.4343277876444494,
+    "avg_degree": 266.4600977198697,
+    "max_degree": 640,
+    "min_degree": 105
+  },
+  "knn/HT_10_sym.bin": {
+    "title": "HT_10_sym",
+    "path": "knn/HT_10_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 3028,
+    "edges_count": 466314,
+    "density": 0.10175134489724579,
+    "avg_degree": 154.0006605019815,
+    "max_degree": 1540,
+    "min_degree": 96
+  },
+  "knn/HT_2.bin": {
+    "title": "HT_2",
+    "path": "knn/HT_2.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 3790,
+    "edges_count": 3447444,
+    "density": 0.4801350388675453,
+    "avg_degree": 909.6158311345646,
+    "max_degree": 2069,
+    "min_degree": 618
+  },
+  "knn/HT_2_sym.bin": {
+    "title": "HT_2_sym",
+    "path": "knn/HT_2_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 7994,
+    "edges_count": 1589616,
+    "density": 0.04975632136963976,
+    "avg_degree": 198.85113835376532,
+    "max_degree": 1718,
+    "min_degree": 5
+  },
+  "knn/HT_5.bin": {
+    "title": "HT_5",
+    "path": "knn/HT_5.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 4243,
+    "edges_count": 2729639,
+    "density": 0.303313342007242,
+    "avg_degree": 643.3275983973604,
+    "max_degree": 3295,
+    "min_degree": 563
+  },
+  "knn/HT_5_sym.bin": {
+    "title": "HT_5_sym",
+    "path": "knn/HT_5_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 6803,
+    "edges_count": 17363011,
+    "density": 0.7504433914798732,
+    "avg_degree": 2552.257974423049,
+    "max_degree": 6785,
+    "min_degree": 2252
+  },
+  "knn/Household_10.bin": {
+    "title": "Household_10",
+    "path": "knn/Household_10.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 3106,
+    "edges_count": 2608395,
+    "density": 0.5409290418109254,
+    "avg_degree": 839.7923374114616,
+    "max_degree": 1148,
+    "min_degree": 375
+  },
+  "knn/Household_10_sym.bin": {
+    "title": "Household_10_sym",
+    "path": "knn/Household_10_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 8178,
+    "edges_count": 29911060,
+    "density": 0.8945831128732169,
+    "avg_degree": 3657.5030569821474,
+    "max_degree": 7246,
+    "min_degree": 202
+  },
+  "knn/Household_2.bin": {
+    "title": "Household_2",
+    "path": "knn/Household_2.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 7896,
+    "edges_count": 11095806,
+    "density": 0.35598326053771867,
+    "avg_degree": 1405.2439209726444,
+    "max_degree": 3085,
+    "min_degree": 940
+  },
+  "knn/Household_2_sym.bin": {
+    "title": "Household_2_sym",
+    "path": "knn/Household_2_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 9358,
+    "edges_count": 6360992,
+    "density": 0.1452898163176726,
+    "avg_degree": 679.7384056422312,
+    "max_degree": 1923,
+    "min_degree": 120
+  },
+  "knn/Household_5.bin": {
+    "title": "Household_5",
+    "path": "knn/Household_5.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Directed",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": true,
+    "weighted": false,
+    "vertices_count": 4006,
+    "edges_count": 150770,
+    "density": 0.01879452980329755,
+    "avg_degree": 37.63604593110335,
+    "max_degree": 2595,
+    "min_degree": 33
+  },
+  "knn/Household_5_sym.bin": {
+    "title": "Household_5_sym",
+    "path": "knn/Household_5_sym.bin",
+    "source": "TBD",
+    "about": "TBD",
+    "categories": [
+      "Real World",
+      "Undirected",
+      "Unweighted"
+    ],
+    "generation_type": "Real World",
+    "directed": false,
+    "weighted": false,
+    "vertices_count": 2148,
+    "edges_count": 688109,
+    "density": 0.29841518068171863,
+    "avg_degree": 320.34869646182494,
+    "max_degree": 522,
+    "min_degree": 66
+  }
+}
