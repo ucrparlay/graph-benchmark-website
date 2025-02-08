@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Script from 'next/script'
 import appLogo from '@/../public/app_logo.png'
 import Link from 'next/link'
 import { ArrowRightIcon } from '@heroicons/react/24/outline'
@@ -16,7 +15,7 @@ export default function Home() {
         <Image src={appLogo} className='mt-4 mb-2' width='150' alt='App Logo' />
         <p className='text-5xl font-bold mb-4'>Graph Repository</p>
         <p className='md:mx-20 mb-6'>
-          Discover, analyze and evaluate algorithms with a curated colection of
+          Discover, analyze and evaluate algorithms with a curated collection of
           standard graph datasets, designed to accelerate research and foster
           innovation in graph-based problem solving.
         </p>

@@ -12,6 +12,7 @@ import Image from 'next/image'
 import appLogo from '@/../public/app_logo.png'
 import Link from 'next/link'
 import getCategories from '@/utils/getCategories'
+import Form from 'next/form'
 
 const navigation = [
   { name: 'Graphs', href: '/graphs' },
@@ -64,6 +65,20 @@ function CategoriesDropdown() {
   )
 }
 
+const SearchForm = () => {
+  return (
+    <Form action='/search'>
+      <input
+        name='query'
+        type='search'
+        placeholder='Search'
+        aria-label='Search'
+        className='rounded-md bg-white py-1.5 px-3 focus:outline-none'
+      />
+    </Form>
+  )
+}
+
 export default function Header() {
   return (
     <Disclosure as='nav'>
@@ -94,22 +109,14 @@ export default function Header() {
             </div>
           </div>
           <div className='pr-2 hidden md:block'>
-            <input
-              type='text'
-              placeholder='Search'
-              className='rounded-md bg-white py-1.5 px-3 focus:outline-none'
-            />
+            <SearchForm />
           </div>
         </div>
       </div>
       <DisclosurePanel className='md:hidden bg-blue-500'>
         <div className='space-y-2 px-4 pt-2 pb-3 flex flex-col'>
           <CategoriesDropdown />
-          <input
-            type='text'
-            placeholder='Search'
-            className='rounded-md bg-white py-1.5 px-3 focus:outline-none'
-          />
+          <SearchForm />
         </div>
       </DisclosurePanel>
     </Disclosure>
