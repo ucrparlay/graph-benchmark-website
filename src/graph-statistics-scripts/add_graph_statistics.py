@@ -31,20 +31,20 @@ if not os.path.isdir(args.graph_stats_repo_path):
     print("Graph Statistics repo not found")
     exit()
 
+print("*"*30)
 print("Running make on graph statistics")
 p = subprocess.Popen(f'cd {args.graph_stats_repo_path}/src/basic_statistics && make', shell=True)
 p.wait()
-print("*"*30)
 
+print("*"*30)
 print("Running make on BCC")
 p = subprocess.Popen(f'cd {args.pasgal_repo_path}/src/BCC && make', shell=True)
 p.wait()
-print("*"*30)
 
+print("*"*30)
 print("Running make on SCC")
 p = subprocess.Popen(f'cd {args.pasgal_repo_path}/src/SCC && make', shell=True)
 p.wait()
-print("*"*30)
 
 try:
     with open(args.json_file, 'r') as file:
@@ -93,7 +93,8 @@ for graph_key in graphs:
         else:
             graph_metadata["scc_count"] = "-"
             graph_metadata["larget_scc"] = "-"
-        
+
+print("*"*30)        
 try:
     with open(args.json_file, "w") as file:
         json.dump(graphs, file, indent=2)
