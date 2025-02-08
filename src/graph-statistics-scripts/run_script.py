@@ -1,5 +1,5 @@
 import os
 
-os.system("python3 graph_statistics.py \
+os.system("python3 add_graph_statistics.py \
           -j ../graphs/bin.json \
           -g bin/DBLP_sym.bin ")
