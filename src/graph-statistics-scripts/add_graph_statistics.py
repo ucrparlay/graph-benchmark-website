@@ -65,7 +65,7 @@ for graph_key in graphs:
             graph_metadata["vertices_count"] = basic_stats["vertices_count"]
             graph_metadata["edges_count"] = basic_stats["edges_count"]
             graph_metadata["density"] = basic_stats["density"]
-            graph_metadata["degree"] = basic_stats["degree"]
+            graph_metadata["avg_degree"] = basic_stats["avg_degree"]
         except Exception as e:
             print(e)
             continue

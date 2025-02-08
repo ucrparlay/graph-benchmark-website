@@ -4,21 +4,16 @@
     "path": "bin/DBLP_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
     "vertices_count": 317080,
     "edges_count": 2099732,
-    "density": 4.2e-05,
-    "avg_degree": 829.7989130434783,
+    "density": 4.2e-5,
+    "avg_degree": 0.15101,
     "max_degree": 1427,
     "min_degree": 82,
-    "degree": 0.15101,
     "bcc_count": 68360,
     "largest_bcc": 211408,
     "scc_count": "-",
@@ -29,11 +24,7 @@
     "path": "bin/Epinions1_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -49,11 +40,7 @@
     "path": "bin/Germany_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -69,11 +56,7 @@
     "path": "bin/HepPh_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -89,11 +72,7 @@
     "path": "bin/NotreDame_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -109,11 +88,7 @@
     "path": "bin/RoadUSA_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -129,11 +104,7 @@
     "path": "bin/Slashdot_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -149,11 +120,7 @@
     "path": "bin/WikiTalk_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -169,11 +136,7 @@
     "path": "bin/africa.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -189,11 +152,7 @@
     "path": "bin/africa_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -209,11 +168,7 @@
     "path": "bin/arabic_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -229,11 +184,7 @@
     "path": "bin/asia.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -249,11 +200,7 @@
     "path": "bin/asia_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -269,11 +216,7 @@
     "path": "bin/com-orkut_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -289,11 +232,7 @@
     "path": "bin/com-youtube_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -309,11 +248,7 @@
     "path": "bin/enwiki-2023.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -329,11 +264,7 @@
     "path": "bin/enwiki-2023_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -349,11 +280,7 @@
     "path": "bin/eu-2015-host.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -369,11 +296,7 @@
     "path": "bin/eu-2015-host_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -389,11 +312,7 @@
     "path": "bin/europe.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -409,11 +328,7 @@
     "path": "bin/europe_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -429,11 +344,7 @@
     "path": "bin/flickr_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -449,11 +360,7 @@
     "path": "bin/friendster_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -469,11 +376,7 @@
     "path": "bin/grid_1000_100000.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -489,11 +392,7 @@
     "path": "bin/grid_1000_100000_03.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -509,11 +408,7 @@
     "path": "bin/grid_1000_100000_03_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -529,11 +424,7 @@
     "path": "bin/grid_1000_100000_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -549,11 +440,7 @@
     "path": "bin/hollywood_2009_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -569,11 +456,7 @@
     "path": "bin/hugebubbles-00020_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -589,11 +472,7 @@
     "path": "bin/hugetrace-00020_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -609,11 +488,7 @@
     "path": "bin/in_2004_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -629,11 +504,7 @@
     "path": "bin/indochina_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -649,11 +520,7 @@
     "path": "bin/north-america.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -669,11 +536,7 @@
     "path": "bin/north-america_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -689,11 +552,7 @@
     "path": "bin/planet.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -709,11 +568,7 @@
     "path": "bin/planet_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -729,11 +584,7 @@
     "path": "bin/roadNet-CA_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -749,11 +600,7 @@
     "path": "bin/sd_arc.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -769,11 +616,7 @@
     "path": "bin/sd_arc_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -789,11 +632,7 @@
     "path": "bin/skitter_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -809,11 +648,7 @@
     "path": "bin/soc-LiveJournal1.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -829,11 +664,7 @@
     "path": "bin/soc-LiveJournal1_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -849,11 +680,7 @@
     "path": "bin/socfb-konect_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -869,11 +696,7 @@
     "path": "bin/socfb-uci-uni_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -889,11 +712,7 @@
     "path": "bin/twitter.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -909,11 +728,7 @@
     "path": "bin/twitter_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -929,11 +744,7 @@
     "path": "bin/uk-2002_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -949,11 +760,7 @@
     "path": "bin/us.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Directed",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Directed", "Unweighted"],
     "generation_type": "Real World",
     "directed": true,
     "weighted": false,
@@ -969,11 +776,7 @@
     "path": "bin/us_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
@@ -989,11 +792,7 @@
     "path": "bin/web-Google_sym.bin",
     "source": "TBD",
     "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
+    "categories": ["Real World", "Undirected", "Unweighted"],
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
