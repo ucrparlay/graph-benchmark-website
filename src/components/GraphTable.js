@@ -119,6 +119,9 @@ export default function GraphTable({ graphs }) {
             <th className={cellClassName}>
               <FieldHeader sortField='density' label='Density' />
             </th>
+            <th className={cellClassName}>
+              <FieldHeader sortField='avg_degree' label='Average Degree' />
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -154,6 +157,7 @@ export default function GraphTable({ graphs }) {
                 <td className={cellClassName}>{graph?.vertices_count}</td>
                 <td className={cellClassName}>{graph?.edges_count}</td>
                 <td className={cellClassName}>{graph?.density?.toFixed(6)}</td>
+                <td className={cellClassName}>{graph?.avg_degree}</td>
               </tr>
             ))}
         </tbody>

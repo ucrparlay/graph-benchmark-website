@@ -134,6 +134,37 @@ export default async function Graph({ params }) {
                 <th className={cellClassName}>Max. Degree</th>
                 <td className={cellClassName}>{graph?.max_degree}</td>
               </tr>
+              {graph?.directed ? (
+                <>
+                  <tr className='border-b'>
+                    <th className={cellClassName}>
+                      No. of Strongly Connected Components
+                    </th>
+                    <td className={cellClassName}>{graph?.scc_count}</td>
+                  </tr>
+                  <tr className='border-b'>
+                    <th className={cellClassName}>
+                      Size of the largest Strongly Connected Component
+                    </th>
+                    <td className={cellClassName}>{graph?.larget_scc}</td>
+                  </tr>
+                </>
+              ) : (
+                <>
+                  <tr className='border-b'>
+                    <th className={cellClassName}>
+                      No. of Biconnected Components
+                    </th>
+                    <td className={cellClassName}>{graph?.bcc_count}</td>
+                  </tr>
+                  <tr className='border-b'>
+                    <th className={cellClassName}>
+                      Size of the largest Biconnected Component
+                    </th>
+                    <td className={cellClassName}>{graph?.largest_bcc}</td>
+                  </tr>
+                </>
+              )}
             </tbody>
           </table>
         </div>
