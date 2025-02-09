@@ -12,12 +12,17 @@
     "generation_type": "Real World",
     "directed": false,
     "weighted": false,
-    "vertices_count": 3128,
-    "edges_count": 2595611,
-    "density": 0.5307316361007216,
+    "vertices_count": 317080,
+    "edges_count": 2099732,
+    "density": 4.2e-05,
     "avg_degree": 829.7989130434783,
     "max_degree": 1427,
-    "min_degree": 82
+    "min_degree": 82,
+    "degree": 0.15101,
+    "bcc_count": 68360,
+    "largest_bcc": 211408,
+    "scc_count": "-",
+    "larget_scc": "-"
   },
   "bin/Epinions1_sym.bin": {
     "title": "Epinions1_sym",
