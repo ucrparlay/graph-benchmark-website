@@ -57,7 +57,7 @@ export default function GraphTable({ graphs }) {
     }
   })
 
-  const FieldHeader = ({ sortField, label }) => {
+  const SortFieldHeader = ({ sortField, label }) => {
     return (
       <Link
         href={createSortURL(sortField)}
@@ -93,34 +93,32 @@ export default function GraphTable({ graphs }) {
         <thead>
           <tr className='border-t border-b-2'>
             <th className={cellClassName}>
-              <FieldHeader sortField='title' label='Graph Name' />
+              <SortFieldHeader sortField='title' label='Graph Name' />
             </th>
+            <th className={cellClassName}>Categories</th>
             <th className={cellClassName}>
-              <FieldHeader label='Categories' />
-            </th>
-            <th className={cellClassName}>
-              <FieldHeader
+              <SortFieldHeader
                 sortField='generation_type'
                 label='Generation Type'
               />
             </th>
             <th className={cellClassName}>
-              <FieldHeader sortField='directed' label='Directed' />
+              <SortFieldHeader sortField='directed' label='Directed' />
             </th>
             <th className={cellClassName}>
-              <FieldHeader sortField='weighted' label='Weighted' />
+              <SortFieldHeader sortField='weighted' label='Weighted' />
             </th>
             <th className={cellClassName}>
-              <FieldHeader sortField='vertices_count' label='Vertices' />
+              <SortFieldHeader sortField='vertices_count' label='Vertices' />
             </th>
             <th className={cellClassName}>
-              <FieldHeader sortField='edges_count' label='Edges' />
+              <SortFieldHeader sortField='edges_count' label='Edges' />
             </th>
             <th className={cellClassName}>
-              <FieldHeader sortField='density' label='Density' />
+              <SortFieldHeader sortField='density' label='Density' />
             </th>
             <th className={cellClassName}>
-              <FieldHeader sortField='avg_degree' label='Average Degree' />
+              <SortFieldHeader sortField='avg_degree' label='Average Degree' />
             </th>
           </tr>
         </thead>
@@ -163,7 +161,7 @@ export default function GraphTable({ graphs }) {
         </tbody>
         <tfoot>
           <tr>
-            <td className={cellClassName} colSpan={8}>
+            <td className={cellClassName} colSpan={9}>
               <div className='flex items-center justify-between'>
                 <div>
                   Showing <strong>{PAGE_SIZE * (currentPage - 1) + 1}</strong>{' '}

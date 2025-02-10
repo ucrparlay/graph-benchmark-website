@@ -11,6 +11,7 @@ import {
   ArcElement,
 } from 'chart.js'
 import ChartDataLabels from 'chartjs-plugin-datalabels'
+import { GRAPH_COLORS } from '@/constants'
 
 ChartJS.register(
   CategoryScale,
@@ -28,6 +29,7 @@ const GraphsByGenerationTypeChart = ({ categories }) => {
       {
         label: '# of Graphs',
         data: [categories['Real World'].length, categories['Synthetic'].length],
+        backgroundColor: [GRAPH_COLORS[0], GRAPH_COLORS[1]],
       },
     ],
   }

@@ -11,6 +11,7 @@ import {
   Legend,
 } from 'chart.js'
 import ChartDataLabels from 'chartjs-plugin-datalabels'
+import { GRAPH_COLORS } from '@/constants'
 
 ChartJS.register(
   BarElement,
@@ -29,6 +30,9 @@ const GraphsByCategoriesChart = ({ categories }) => {
         label: '# of Graphs',
         data: Object.values(categories).map((category) => category.length),
         borderWidth: 1,
+        backgroundColor: Object.keys(categories).map(
+          (_, i) => GRAPH_COLORS[i % GRAPH_COLORS.length]
+        ),
       },
     ],
   }
