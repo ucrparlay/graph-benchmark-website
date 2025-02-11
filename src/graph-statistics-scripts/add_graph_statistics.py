@@ -60,16 +60,36 @@ for graph_key in graphs:
         graph_metadata = graphs[graph_key]
         graph_path = args.graph_folder + "/" + graph_metadata["path"]
 
-        del graph_metadata["vertices_count"]
-        del graph_metadata["edges_count"]
-        del graph_metadata["density"]
-        del graph_metadata["avg_degree"]
-        del graph_metadata["max_degree"]
-        del graph_metadata["min_degree"]
-        del graph_metadata["bcc_count"]
-        del graph_metadata["largest_bcc"]
-        del graph_metadata["scc_count"]
-        del graph_metadata["larget_scc"]
+        if "vertices_count" in graph_metadata:
+            del graph_metadata["vertices_count"]
+        
+        if "edges_count" in graph_metadata:
+            del graph_metadata["edges_count"]
+        
+        if "density" in graph_metadata:
+            del graph_metadata["density"]
+
+        if "avg_degree" in graph_metadata:
+            del graph_metadata["avg_degree"]
+        
+        if "max_degree" in graph_metadata:
+            del graph_metadata["max_degree"]
+
+        if "min_degree" in graph_metadata:
+            del graph_metadata["min_degree"]
+        
+        if "bcc_count" in graph_metadata:
+            del graph_metadata["bcc_count"]
+        
+        if "largest_bcc" in graph_metadata:
+            del graph_metadata["largest_bcc"]
+        
+        if "scc_count" in graph_metadata:
+            del graph_metadata["scc_count"]
+        
+        if "larget_scc" in graph_metadata:
+            del graph_metadata["larget_scc"]
+
         try:
             basic_stats = run_basic_statistics(args.graph_stats_repo_path, graph_path)
             graph_metadata["vertices_count"] = basic_stats["vertices_count"]
