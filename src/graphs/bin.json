@@ -314,6 +314,7 @@
   "bin/com-orkut_sym.bin": {
     "title": "com-orkut_sym",
     "path": "bin/com-orkut_sym.bin",
+    "path2": "pbbs/com-orkut_sym.adj",
     "source": "TBD",
     "about": "TBD",
     "categories": [
@@ -530,6 +531,7 @@
   "bin/friendster_sym.bin": {
     "title": "friendster_sym",
     "path": "bin/friendster_sym.bin",
+    "path2": "pbbs/friendster_sym.adj",
     "source": "TBD",
     "about": "TBD",
     "categories": [
@@ -620,30 +622,6 @@
     "min_degree": 803,
     "bcc_count": 1005582,
     "largest_bcc": 98964234,
-    "scc_count": "-",
-    "larget_scc": "-"
-  },
-  "bin/grid_1000_100000_sym.bin": {
-    "title": "grid_1000_100000_sym",
-    "path": "bin/grid_1000_100000_sym.bin",
-    "source": "TBD",
-    "about": "TBD",
-    "categories": [
-      "Real World",
-      "Undirected",
-      "Unweighted"
-    ],
-    "generation_type": "Real World",
-    "directed": false,
-    "weighted": false,
-    "vertices_count": 100000000,
-    "edges_count": 400000000,
-    "density": 0.0,
-    "avg_degree": 4.0,
-    "max_degree": 405,
-    "min_degree": 4,
-    "bcc_count": 1,
-    "largest_bcc": 99999999,
     "scc_count": "-",
     "larget_scc": "-"
   },
@@ -890,6 +868,7 @@
   "bin/sd_arc.bin": {
     "title": "sd_arc",
     "path": "bin/sd_arc.bin",
+    "path2": "pbbs/sd_arc.adj",
     "source": "TBD",
     "about": "TBD",
     "categories": [
@@ -962,6 +941,7 @@
   "bin/soc-LiveJournal1.bin": {
     "title": "soc-LiveJournal1",
     "path": "bin/soc-LiveJournal1.bin",
+    "path2": "pbbs/soc-LiveJournal1.adj",
     "source": "TBD",
     "about": "TBD",
     "categories": [
@@ -1058,6 +1038,7 @@
   "bin/twitter.bin": {
     "title": "twitter",
     "path": "bin/twitter.bin",
+    "path2": "pbbs/twitter.adj",
     "source": "TBD",
     "about": "TBD",
     "categories": [
