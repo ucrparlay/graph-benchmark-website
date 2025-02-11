@@ -13,9 +13,9 @@ def run_scc(pasgal_repo_path, graph_path):
     p.wait()
 
     scc_count = re.findall(r'\d+', last_2_line)
-    largest_scc = re.findall(r'\d+', last_line)
+    largest_scc_size = re.findall(r'\d+', last_line)
     
-    if not scc_count and not largest_scc:
+    if not scc_count and not largest_scc_size:
         raise Exception("BCC script did not print numbers") 
     
-    return int(scc_count[0]), int(largest_scc[0])
+    return int(scc_count[0]), int(largest_scc_size[0])

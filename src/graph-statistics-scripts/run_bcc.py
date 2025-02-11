@@ -13,9 +13,9 @@ def run_bcc(pasgal_repo_path, graph_path):
     p.wait()
 
     bcc_count = re.findall(r'\d+', last_3_line)
-    largest_bcc = re.findall(r'\d+', last_2_line)
+    largest_bcc_size = re.findall(r'\d+', last_2_line)
     
-    if not bcc_count and not largest_bcc:
+    if not bcc_count and not largest_bcc_size:
         raise Exception("BCC script did not print numbers") 
     
-    return int(bcc_count[0]), int(largest_bcc[0])
+    return int(bcc_count[0]), int(largest_bcc_size[0])

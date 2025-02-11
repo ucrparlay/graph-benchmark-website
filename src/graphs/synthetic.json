@@ -6,11 +6,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Directed",
+      "Asymmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": true,
+    "symmetric": false,
     "weighted": false,
     "vertices_count": 10000000,
     "edges_count": 9999999,
@@ -30,11 +30,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Undirected",
+      "Symmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": false,
+    "symmetric": true,
     "weighted": false,
     "vertices_count": 10000000,
     "edges_count": 19999998,
@@ -54,11 +54,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Directed",
+      "Asymmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": true,
+    "symmetric": false,
     "weighted": false,
     "vertices_count": 100000000,
     "edges_count": 99999999,
@@ -78,11 +78,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Undirected",
+      "Symmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": false,
+    "symmetric": true,
     "weighted": false,
     "vertices_count": 100000000,
     "edges_count": 199999998,
@@ -102,11 +102,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Directed",
+      "Asymmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": true,
+    "symmetric": false,
     "weighted": false,
     "vertices_count": 100000000,
     "edges_count": 300000074,
@@ -126,11 +126,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Directed",
+      "Asymmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": true,
+    "symmetric": false,
     "weighted": false,
     "vertices_count": 100000000,
     "edges_count": 120299012,
@@ -150,11 +150,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Undirected",
+      "Symmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": false,
+    "symmetric": true,
     "weighted": false,
     "vertices_count": 100000000,
     "edges_count": 239988610,
@@ -174,11 +174,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Undirected",
+      "Symmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": false,
+    "symmetric": true,
     "weighted": false,
     "vertices_count": 100000000,
     "edges_count": 400000000,
@@ -198,11 +198,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Directed",
+      "Asymmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": true,
+    "symmetric": false,
     "weighted": false,
     "vertices_count": 10000000,
     "edges_count": 30000778,
@@ -222,11 +222,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Undirected",
+      "Symmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": false,
+    "symmetric": true,
     "weighted": false,
     "vertices_count": 1000000000,
     "edges_count": 1332899556,
@@ -246,11 +246,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Undirected",
+      "Symmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": false,
+    "symmetric": true,
     "weighted": false,
     "vertices_count": 1000000000,
     "edges_count": 4000000000,
@@ -270,11 +270,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Undirected",
+      "Symmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": false,
+    "symmetric": true,
     "weighted": false,
     "vertices_count": 100000000,
     "edges_count": 240003882,
@@ -294,11 +294,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Undirected",
+      "Symmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": false,
+    "symmetric": true,
     "weighted": false,
     "vertices_count": 100000000,
     "edges_count": 400000000,
@@ -318,11 +318,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Directed",
+      "Asymmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": true,
+    "symmetric": false,
     "weighted": false,
     "vertices_count": 10000000,
     "edges_count": 12031898,
@@ -342,11 +342,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Undirected",
+      "Symmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": false,
+    "symmetric": true,
     "weighted": false,
     "vertices_count": 10000000,
     "edges_count": 20445162,
@@ -366,11 +366,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Undirected",
+      "Symmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": false,
+    "symmetric": true,
     "weighted": false,
     "vertices_count": 10000000,
     "edges_count": 40000000,
@@ -390,11 +390,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Directed",
+      "Asymmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": true,
+    "symmetric": false,
     "weighted": false,
     "vertices_count": 16000000,
     "edges_count": 48004041,
@@ -414,11 +414,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Directed",
+      "Asymmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": true,
+    "symmetric": false,
     "weighted": false,
     "vertices_count": 16000000,
     "edges_count": 19254772,
@@ -438,11 +438,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Undirected",
+      "Symmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": false,
+    "symmetric": true,
     "weighted": false,
     "vertices_count": 16000000,
     "edges_count": 32715978,
@@ -462,11 +462,11 @@
     "about": "TBD",
     "categories": [
       "Synthetic",
-      "Undirected",
+      "Symmetric",
       "Unweighted"
     ],
     "generation_type": "Synthetic",
-    "directed": false,
+    "symmetric": true,
     "weighted": false,
     "vertices_count": 16000000,
     "edges_count": 64000000,

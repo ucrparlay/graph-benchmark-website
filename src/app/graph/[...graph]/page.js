@@ -69,9 +69,9 @@ export default async function Graph({ params }) {
                 </tr>
               )}
               <tr className='border-b'>
-                <th className={cellClassName}>Directed</th>
+                <th className={cellClassName}>Symmetric</th>
                 <td className={cellClassName}>
-                  {graph?.directed ? 'Yes' : 'No'}
+                  {graph?.symmetric ? 'Yes' : 'No'}
                 </td>
               </tr>
               <tr className='border-b'>
@@ -134,22 +134,19 @@ export default async function Graph({ params }) {
                 <th className={cellClassName}>Max. Degree</th>
                 <td className={cellClassName}>{graph?.max_degree}</td>
               </tr>
-              {graph?.directed ? (
-                <>
-                  <tr className='border-b'>
-                    <th className={cellClassName}>
-                      No. of Strongly Connected Components
-                    </th>
-                    <td className={cellClassName}>{graph?.scc_count}</td>
-                  </tr>
-                  <tr className='border-b'>
-                    <th className={cellClassName}>
-                      Size of the largest Strongly Connected Component
-                    </th>
-                    <td className={cellClassName}>{graph?.larget_scc}</td>
-                  </tr>
-                </>
-              ) : (
+              <tr className='border-b'>
+                <th className={cellClassName}>
+                  No. of Strongly Connected Components
+                </th>
+                <td className={cellClassName}>{graph?.scc_count}</td>
+              </tr>
+              <tr className='border-b'>
+                <th className={cellClassName}>
+                  Size of the largest Strongly Connected Component
+                </th>
+                <td className={cellClassName}>{graph?.largest_scc_size}</td>
+              </tr>
+              {graph?.symmetric && (
                 <>
                   <tr className='border-b'>
                     <th className={cellClassName}>
@@ -161,7 +158,7 @@ export default async function Graph({ params }) {
                     <th className={cellClassName}>
                       Size of the largest Biconnected Component
                     </th>
-                    <td className={cellClassName}>{graph?.largest_bcc}</td>
+                    <td className={cellClassName}>{graph?.largest_bcc_size}</td>
                   </tr>
                 </>
               )}

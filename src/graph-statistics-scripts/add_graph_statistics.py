@@ -60,21 +60,43 @@ for graph_key in graphs:
         graph_metadata = graphs[graph_key]
         graph_path = args.graph_folder + "/" + graph_metadata["path"]
 
+        del graph_metadata["vertices_count"]
+        del graph_metadata["edges_count"]
+        del graph_metadata["density"]
+        del graph_metadata["avg_degree"]
+        del graph_metadata["max_degree"]
+        del graph_metadata["min_degree"]
+        del graph_metadata["bcc_count"]
+        del graph_metadata["largest_bcc"]
+        del graph_metadata["scc_count"]
+        del graph_metadata["larget_scc"]
         try:
             basic_stats = run_basic_statistics(args.graph_stats_repo_path, graph_path)
             graph_metadata["vertices_count"] = basic_stats["vertices_count"]
             graph_metadata["edges_count"] = basic_stats["edges_count"]
-            graph_metadata["density"] = basic_stats["density"]
-            graph_metadata["avg_degree"] = basic_stats["avg_degree"]
+
+            n = basic_stats["vertices_count"]
+            m = basic_stats["edges_count"]
+
+            graph_metadata["density"] = m / (n * (n-1))
+            graph_metadata["avg_degree"] = m / n
+           
+            graph_metadata["max_out_degree"] = basic_stats["max_out_degree"]
+            graph_metadata["min_out_degree"] = basic_stats["min_out_degree"]
+            graph_metadata["zero_out_degree_count"] = basic_stats["zero_out_degree_count"]
+            graph_metadata["max_in_degree"] = basic_stats["max_in_degree"]
+            graph_metadata["min_in_degree"] = basic_stats["min_in_degree"]
+            graph_metadata["zero_in_degree_count"] = basic_stats["zero_in_degree_count"]
+
         except Exception as e:
             print(e)
             continue
 
-        if graph_metadata["directed"] == False:
+        if graph_metadata["symmetric"] == True:
             try:
-                bcc_count, largest_bcc = run_bcc(args.pasgal_repo_path, graph_path)
+                bcc_count, largest_bcc_size = run_bcc(args.pasgal_repo_path, graph_path)
                 graph_metadata["bcc_count"] = bcc_count
-                graph_metadata["largest_bcc"] = largest_bcc
+                graph_metadata["largest_bcc_size"] = largest_bcc_size
             except Exception as e:
                 print(e)
                 continue
@@ -82,17 +104,13 @@ for graph_key in graphs:
             graph_metadata["bcc_count"] = "-"
             graph_metadata["largest_bcc"] = "-"
         
-        if graph_metadata["directed"] == True:
-            try:
-                scc_count, larget_scc = run_scc(args.pasgal_repo_path, graph_path)
-                graph_metadata["scc_count"] = scc_count
-                graph_metadata["larget_scc"] = larget_scc
-            except Exception as e:
-                print(e)
-                continue
-        else:
-            graph_metadata["scc_count"] = "-"
-            graph_metadata["larget_scc"] = "-"
+        try:
+            scc_count, largest_scc_size = run_scc(args.pasgal_repo_path, graph_path)
+            graph_metadata["scc_count"] = scc_count
+            graph_metadata["largest_scc_size"] = largest_scc_size
+        except Exception as e:
+            print(e)
+            continue
 
 print("*"*30)        
 try:

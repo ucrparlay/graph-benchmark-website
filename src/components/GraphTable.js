@@ -103,7 +103,7 @@ export default function GraphTable({ graphs }) {
               />
             </th>
             <th className={cellClassName}>
-              <SortFieldHeader sortField='directed' label='Directed' />
+              <SortFieldHeader sortField='symmetric' label='Symmetric' />
             </th>
             <th className={cellClassName}>
               <SortFieldHeader sortField='weighted' label='Weighted' />
@@ -147,7 +147,7 @@ export default function GraphTable({ graphs }) {
                 </td>
                 <td className={cellClassName}>{graph?.generation_type}</td>
                 <td className={cellClassName}>
-                  {graph?.directed ? 'Yes' : 'No'}
+                  {graph?.symmetric ? 'Yes' : 'No'}
                 </td>
                 <td className={cellClassName}>
                   {graph?.weighted ? 'Yes' : 'No'}

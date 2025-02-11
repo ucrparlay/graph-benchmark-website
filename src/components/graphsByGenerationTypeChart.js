@@ -24,11 +24,11 @@ ChartJS.register(
 
 const GraphsByGenerationTypeChart = ({ categories }) => {
   const data = {
-    labels: ['Real World', 'Synthetic'],
+    labels: ['Real_World', 'Synthetic'],
     datasets: [
       {
         label: '# of Graphs',
-        data: [categories['Real World'].length, categories['Synthetic'].length],
+        data: [categories['Real_World'].length, categories['Synthetic'].length],
         backgroundColor: [GRAPH_COLORS[0], GRAPH_COLORS[1]],
       },
     ],
