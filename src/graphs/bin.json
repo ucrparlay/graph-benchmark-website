@@ -247,7 +247,7 @@
     "min_in_degree": 0,
     "zero_in_degree_count": 2372405,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 15979290,
     "largest_scc_size": 1806086
   },
@@ -331,7 +331,7 @@
     "min_in_degree": 0,
     "zero_in_degree_count": 7888228,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 47102006,
     "largest_scc_size": 8825617
   },
@@ -444,7 +444,7 @@
     "min_in_degree": 0,
     "zero_in_degree_count": 565662,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 773583,
     "largest_scc_size": 5824562
   },
@@ -500,7 +500,7 @@
     "min_in_degree": 1,
     "zero_in_degree_count": 0,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 4617177,
     "largest_scc_size": 6512843
   },
@@ -556,7 +556,7 @@
     "min_in_degree": 0,
     "zero_in_degree_count": 9916312,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 58241234,
     "largest_scc_size": 59686952
   },
@@ -669,7 +669,7 @@
     "min_in_degree": 0,
     "zero_in_degree_count": 938463,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 2156812,
     "largest_scc_size": 97679184
   },
@@ -697,7 +697,7 @@
     "min_in_degree": 0,
     "zero_in_degree_count": 5399364,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 24354790,
     "largest_scc_size": 59098442
   },
@@ -893,7 +893,7 @@
     "min_in_degree": 0,
     "zero_in_degree_count": 6212753,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 40471093,
     "largest_scc_size": 38823803
   },
@@ -949,7 +949,7 @@
     "min_in_degree": 0,
     "zero_in_degree_count": 28295027,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 173422969,
     "largest_scc_size": 71830180
   },
@@ -1034,7 +1034,7 @@
     "min_in_degree": 0,
     "zero_in_degree_count": 16470408,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 39205039,
     "largest_scc_size": 47965727
   },
@@ -1119,7 +1119,7 @@
     "min_in_degree": 0,
     "zero_in_degree_count": 358331,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 971232,
     "largest_scc_size": 3828682
   },
@@ -1232,7 +1232,7 @@
     "min_in_degree": 0,
     "zero_in_degree_count": 5963083,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 8044729,
     "largest_scc_size": 33479734
   },
@@ -1316,7 +1316,7 @@
     "min_in_degree": 0,
     "zero_in_degree_count": 4997286,
     "bcc_count": "-",
-    "largest_bcc": "-",
+    "largest_bcc_size": "-",
     "scc_count": 34168711,
     "largest_scc_size": 33429624
   },

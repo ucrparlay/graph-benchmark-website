@@ -92,7 +92,7 @@ for graph_key in graphs:
                 continue
         else:
             graph_metadata["bcc_count"] = "-"
-            graph_metadata["largest_bcc"] = "-"
+            graph_metadata["largest_bcc_size"] = "-"
         
         try:
             scc_count, largest_scc_size = run_scc(args.pasgal_repo_path, graph_path)
