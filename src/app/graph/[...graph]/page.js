@@ -18,6 +18,31 @@ export default async function Graph({ params }) {
 
   const cellClassName = 'p-3 text-left'
 
+  const graphStatistics = [
+    { label: "Vertices", value: graph?.vertices_count },
+    { label: "Edges", value: graph?.edges_count },
+    { label: "Density", value: graph?.density?.toFixed(6) },
+    { label: "Average Degree", value: graph?.avg_degree?.toFixed(6) },
+    ...(!graph?.symmetric ? [
+      { label: "Min. out-degree", value: graph?.min_out_degree },
+      { label: "Max. out-degree", value: graph?.max_out_degree },
+      { label: "No. of 0 out-degree vertices", value: graph?.zero_out_degree_count },
+      { label: "Min. in-degree", value: graph?.min_in_degree },
+      { label: "Max. in-degree", value: graph?.max_in_degree },
+      { label: "No. of 0 in-degree vertices", value: graph?.zero_in_degree_count },
+    ] : [
+      { label: "Min. Degree", value: graph?.min_out_degree },
+      { label: "Max. Degree", value: graph?.max_out_degree },
+      { label: "No. of 0 degree vertices", value: graph?.zero_out_degree_count },
+      { label: "No. of Biconnected Components", value: graph?.bcc_count },
+      { label: "Size of the largest Biconnected Component", value: graph?.largest_bcc_size },
+      { label: "Percentage of the largest Biconnected Component", value: `${(graph?.largest_bcc_size * 100 / graph?.vertices_count).toFixed(6)}%` },
+    ]),
+    { label: "No. of Strongly Connected Components", value: graph?.scc_count },
+    { label: "Size of the largest Strongly Connected Component", value: graph?.largest_scc_size },
+    { label: "Percentage of the largest Strongly Connected Component", value: `${(graph?.largest_scc_size * 100 / graph?.vertices_count).toFixed(6)}%` },
+  ]
+
   return (
     <>
       <div className='flex items-center justify-between mb-2'>
@@ -108,60 +133,12 @@ export default async function Graph({ params }) {
               </tr>
             </thead>
             <tbody>
-              <tr className='border-b'>
-                <th className={cellClassName}>Vertices</th>
-                <td className={cellClassName}>{graph?.vertices_count}</td>
-              </tr>
-              <tr className='border-b'>
-                <th className={cellClassName}>Edges</th>
-                <td className={cellClassName}>{graph?.edges_count}</td>
-              </tr>
-              <tr className='border-b'>
-                <th className={cellClassName}>Density</th>
-                <td className={cellClassName}>{graph?.density?.toFixed(6)}</td>
-              </tr>
-              <tr className='border-b'>
-                <th className={cellClassName}>Average Degree</th>
-                <td className={cellClassName}>
-                  {graph?.avg_degree?.toFixed(6)}
-                </td>
-              </tr>
-              <tr className='border-b'>
-                <th className={cellClassName}>Min. Degree</th>
-                <td className={cellClassName}>{graph?.min_degree}</td>
-              </tr>
-              <tr className='border-b'>
-                <th className={cellClassName}>Max. Degree</th>
-                <td className={cellClassName}>{graph?.max_degree}</td>
-              </tr>
-              <tr className='border-b'>
-                <th className={cellClassName}>
-                  No. of Strongly Connected Components
-                </th>
-                <td className={cellClassName}>{graph?.scc_count}</td>
-              </tr>
-              <tr className='border-b'>
-                <th className={cellClassName}>
-                  Size of the largest Strongly Connected Component
-                </th>
-                <td className={cellClassName}>{graph?.largest_scc_size}</td>
-              </tr>
-              {graph?.symmetric && (
-                <>
-                  <tr className='border-b'>
-                    <th className={cellClassName}>
-                      No. of Biconnected Components
-                    </th>
-                    <td className={cellClassName}>{graph?.bcc_count}</td>
-                  </tr>
-                  <tr className='border-b'>
-                    <th className={cellClassName}>
-                      Size of the largest Biconnected Component
-                    </th>
-                    <td className={cellClassName}>{graph?.largest_bcc_size}</td>
-                  </tr>
-                </>
-              )}
+              {graphStatistics?.map(({label, value}) => (
+                <tr className='border-b' key={label}>
+                  <th className={cellClassName}>{label}</th>
+                  <td className={cellClassName}>{value}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
