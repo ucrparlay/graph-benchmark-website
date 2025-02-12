@@ -47,14 +47,17 @@ export default async function Graph({ params }) {
     <>
       <div className='flex items-center justify-between mb-2'>
         <div className='text-3xl'>{graph?.title}</div>
-        {graph?.path && (
-          <Link
-            href={`https://pasgal-bs.cs.ucr.edu/${graph?.path}`}
-            role='button'
-            className='text-white bg-blue-500 hover:bg-blue-600 focus:ring-2 rounded-lg px-5 py-2.5'>
-            Download Graph Data
-          </Link>
-        )}
+        <div>
+          {[graph?.path, graph?.path2].filter(path => path).map(path => (
+            <Link
+              key={path}
+              href={`https://pasgal-bs.cs.ucr.edu/${path}`}
+              role='button'
+              className='text-white bg-blue-500 hover:bg-blue-600 focus:ring-2 rounded-lg px-5 py-2.5 ml-4'>
+              {`Download ${path.substr(-4)} Graph File`}
+            </Link>
+          ))}
+        </div>
       </div>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-2 mt-8'>
         <div className='w-full max-w-full overflow-x-auto'>

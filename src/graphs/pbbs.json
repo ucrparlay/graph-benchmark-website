@@ -1098,11 +1098,11 @@
     "about": "TBD",
     "categories": [
       "Real_World",
-      "Asymmetric",
+      "Symmetric",
       "Weighted"
     ],
     "generation_type": "Real_World",
-    "symmetric": false,
+    "symmetric": true,
     "weighted": true,
     "vertices_count": 3072627,
     "edges_count": 234370166,
@@ -1196,11 +1196,11 @@
     "about": "TBD",
     "categories": [
       "Real_World",
-      "Asymmetric",
+      "Symmetric",
       "Weighted"
     ],
     "generation_type": "Real_World",
-    "symmetric": false,
+    "symmetric": true,
     "weighted": true
   },
   "pbbs/hugebubbles-00020.adj": {
