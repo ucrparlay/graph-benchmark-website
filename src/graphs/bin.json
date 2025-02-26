@@ -11,18 +11,7 @@
     ],
     "generation_type": "Real_World",
     "symmetric": true,
-    "weighted": false,
-    "vertices_count": 317080,
-    "edges_count": 2099732,
-    "density": 2.08846661642591e-05,
-    "avg_degree": 6.622089062697111,
-    "max_out_degree": 343,
-    "min_out_degree": 1,
-    "zero_out_degree_count": 0,
-    "max_in_degree": 343,
-    "min_in_degree": 1,
-    "zero_in_degree_count": 0,
-    "bcc_count": 68360
+    "weighted": false
   },
   "bin/Epinions1_sym.bin": {
     "title": "Epinions1_sym",
