@@ -26,6 +26,7 @@ if not os.path.isdir(args.pasgal_repo_path):
     print("PASGAL repo not found")
     pasgal_repo_parent = os.path.dirname(args.pasgal_repo_path)
     p = subprocess.Popen(f'cd {pasgal_repo_parent} && git clone https://github.com/ucrparlay/PASGAL.git', shell=True)
+    p.wait()
 
 print("*"*30)
 print("Running make on basic analytics")
