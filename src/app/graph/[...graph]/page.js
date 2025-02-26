@@ -1,5 +1,6 @@
 import graphs from '@/graphs'
 import Link from 'next/link'
+import { InformationCircleIcon } from '@heroicons/react/24/outline'
 
 export async function generateStaticParams() {
   return Object.keys(graphs).map((graph) => ({
@@ -30,6 +31,9 @@ export default async function Graph({ params }) {
       { label: "Min. in-degree", value: graph?.min_in_degree },
       { label: "Max. in-degree", value: graph?.max_in_degree },
       { label: "No. of 0 in-degree vertices", value: graph?.zero_in_degree_count },
+      { label: "No. of Connected Components", value: graph?.scc_count },
+      { label: "Size of the largest Connected Component", value: graph?.largest_scc_size },
+      { label: "Percentage of the largest Connected Component", value: `${(graph?.largest_scc_size * 100 / graph?.vertices_count).toFixed(6)}%` },
     ] : [
       { label: "Min. Degree", value: graph?.min_out_degree },
       { label: "Max. Degree", value: graph?.max_out_degree },
@@ -37,10 +41,10 @@ export default async function Graph({ params }) {
       { label: "No. of Biconnected Components", value: graph?.bcc_count },
       { label: "Size of the largest Biconnected Component", value: graph?.largest_bcc_size },
       { label: "Percentage of the largest Biconnected Component", value: `${(graph?.largest_bcc_size * 100 / graph?.vertices_count).toFixed(6)}%` },
-    ]),
-    { label: "No. of Strongly Connected Components", value: graph?.scc_count },
-    { label: "Size of the largest Strongly Connected Component", value: graph?.largest_scc_size },
-    { label: "Percentage of the largest Strongly Connected Component", value: `${(graph?.largest_scc_size * 100 / graph?.vertices_count).toFixed(6)}%` },
+      { label: "No. of Strongly Connected Components", value: graph?.scc_count },
+      { label: "Size of the largest Strongly Connected Component", value: graph?.largest_scc_size },
+      { label: "Percentage of the largest Strongly Connected Component", value: `${(graph?.largest_scc_size * 100 / graph?.vertices_count).toFixed(6)}%` },
+    ])
   ]
 
   return (
@@ -129,7 +133,19 @@ export default async function Graph({ params }) {
             <thead>
               <tr className='bg-blue-200'>
                 <th colSpan='2' className={cellClassName}>
-                  Graph Statistics
+                  <div className='flex items-center'>
+                    Graph Statistics
+                    <div className='tooltip-container ml-2'>
+                      <Link
+                        href="/graph-statistics-info">
+                        <InformationCircleIcon className='size-5' />
+                      </Link>
+                      <div
+                        className="tooltip z-50 rounded-lg bg-black py-1.5 px-3 text-sm font-normal text-white">
+                        Click to know how the statisctics are computed
+                      </div>
+                    </div>
+                  </div>
                 </th>
               </tr>
             </thead>

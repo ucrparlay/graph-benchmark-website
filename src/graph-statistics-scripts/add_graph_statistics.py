@@ -6,7 +6,7 @@ import json
 
 from run_bcc import run_bcc
 from run_scc import run_scc
-from run_basic_statistics import run_basic_statistics
+from run_basic_analytics import run_basic_analytics
 
 repo_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 parent_dir = os.path.dirname(repo_dir)
@@ -18,22 +18,18 @@ parser = argparse.ArgumentParser(
 parser.add_argument('-j', '--json_file', help='The path to the metadata json file', required=True)
 parser.add_argument('-g', '--graph_key', help='The key of the graph in the metadata json file. Runs for all the graphs if not provided')
 parser.add_argument('-f', '--graph_folder', help='the directory where the graph files are present. Defaults to "/ssd0/graphs".', default="/ssd0/graphs")
-parser.add_argument('-p', '--pasgal_repo_path', help='PASGAL repository is searched in the parent directory of this repo. If it is present somewhere else, provide the path to the PASGAL repo using this parameter', default=parent_dir+"/PASGAL")
-parser.add_argument('-gs', '--graph_stats_repo_path', help='graph-statistics repository is searched in the parent directory of this repo. If it is present somewhere else, provide the path to the PASGAL repo using this parameter', default=parent_dir+"/graph-statistics")
+parser.add_argument('-p', '--pasgal_repo_path', help='The path to the PASGAL repository in this machine. If the path doesnot exist, the script tries to download the repo onto this path. If this parameter is missing, it defaults to the parent directory of this repo.', default=parent_dir+"/PASGAL")
 
 args = parser.parse_args(sys.argv[1:])
 
 if not os.path.isdir(args.pasgal_repo_path):
     print("PASGAL repo not found")
-    exit()
-
-if not os.path.isdir(args.graph_stats_repo_path):
-    print("Graph Statistics repo not found")
-    exit()
+    pasgal_repo_parent = os.path.dirname(args.pasgal_repo_path)
+    p = subprocess.Popen(f'cd {pasgal_repo_parent} && git clone https://github.com/ucrparlay/PASGAL.git', shell=True)
 
 print("*"*30)
-print("Running make on graph statistics")
-p = subprocess.Popen(f'cd {args.graph_stats_repo_path}/src/basic_statistics && make', shell=True)
+print("Running make on basic analytics")
+p = subprocess.Popen(f'cd {args.pasgal_repo_path}/src/basic_analytics && make', shell=True)
 p.wait()
 
 print("*"*30)
@@ -61,7 +57,7 @@ for graph_key in graphs:
         graph_path = args.graph_folder + "/" + graph_metadata["path"]
 
         try:
-            basic_stats = run_basic_statistics(args.graph_stats_repo_path, graph_path)
+            basic_stats = run_basic_analytics(args.pasgal_repo_path, graph_path)
             graph_metadata["vertices_count"] = basic_stats["vertices_count"]
             graph_metadata["edges_count"] = basic_stats["edges_count"]
 
