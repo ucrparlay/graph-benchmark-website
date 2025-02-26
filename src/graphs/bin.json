@@ -22,10 +22,7 @@
     "max_in_degree": 343,
     "min_in_degree": 1,
     "zero_in_degree_count": 0,
-    "bcc_count": 68360,
-    "largest_bcc_size": 211408,
-    "scc_count": 1,
-    "largest_scc_size": 317080
+    "bcc_count": 68360
   },
   "bin/Epinions1_sym.bin": {
     "title": "Epinions1_sym",
