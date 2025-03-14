@@ -5,7 +5,7 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline'
 import graphs from '@/graphs'
 import getCategories from '@/utils/getCategories'
 import GraphsByCategoriesChart from '@/components/graphsByCategoriesChart'
-import GraphsByGenerationTypeChart from '@/components/graphsByGenerationTypeChart'
+import GraphsByNodesVertices from '@/components/graphsByNodesVertices'
 
 export default function Home() {
   const categories = getCategories()
@@ -42,14 +42,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-2 mt-8'>
-        <div className='text-center col-span-1 md:col-span-2'>
+      <div className='grid grid-cols-2 gap-x-10 gap-y-2 mt-8'>
+        <div className='text-center col-span-2 lg:col-span-1'>
+          <p className='text-2xl'>Edges vs Vertices</p>
+          <GraphsByNodesVertices graphs={graphs} />
+        </div>
+        <div className='text-center col-span-2 lg:col-span-1'>
           <p className='text-2xl'>Graphs by Categories</p>
           <GraphsByCategoriesChart categories={categories} />
-        </div>
-        <div className='text-center col-span-1'>
-          <p className='text-2xl'>Graphs by Generation Type</p>
-          <GraphsByGenerationTypeChart categories={categories} />
         </div>
       </div>
     </>

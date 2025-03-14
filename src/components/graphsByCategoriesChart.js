@@ -45,7 +45,26 @@ const GraphsByCategoriesChart = ({ categories }) => {
     scales: {
       y: {
         beginAtZero: true,
+        title: {
+          display: true,
+          text: '# of Graphs',
+          font: {
+            size: 16
+          }
+        },
+        ticks: {
+          font: {
+            size: 14
+          }
+        },
       },
+      x: {
+        ticks: {
+          font: {
+            size: 14
+          }
+        },
+      }
     },
     plugins: {
       datalabels: {
