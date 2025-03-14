@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://ucrparlay.github.io/graph-benchmark-website/sitemap.xml
